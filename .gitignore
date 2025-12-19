@@ -60,3 +60,65 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+
+
+### macOS ###
+.DS_Store
+
+### Xcode ###
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+
+# Xcode SCM / checkout metadata
+*.xccheckout
+*.xcscmblueprint
+
+# User-specific Xcode files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+### Swift Package Manager ###
+.build/
+# Xcode가 생성하는 SPM 관련 워크스페이스/상태 파일들
+.swiftpm/xcode/package.xcworkspace/
+# (중요) 레지스트리/미러 설정에 민감정보가 섞일 수 있어 공개 repo라면 제외 권장
+**/xcshareddata/swiftpm/configuration/
+
+### CocoaPods ###
+Pods/
+
+### Carthage ###
+Carthage/Build/
+
+### fastlane ###
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+### SwiftData / local database artifacts (프로젝트 폴더에 생기는 경우 대비) ###
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.log
+
+### Secrets / Signing (절대 커밋 금지) ###
+*.p12
+*.cer
+*.mobileprovision
+*.key
+*.env
+
+
+# 예: 민감한 에셋만 넣는 카탈로그/폴더를 따로 만들었을 때
+**/PrivateAssets.xcassets/
+**/SecretsAssets.xcassets/
+**/Resources/Private/
