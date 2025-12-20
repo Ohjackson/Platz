@@ -2,31 +2,22 @@
 //  PlatzApp.swift
 //  Platz
 //
-//  Created by Jaehyun on 12/20/25.
+//  독일 문화/역사/정치/행정 정보 + 기초 독일어 학습 앱
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct PlatzApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+    @StateObject private var dataManager = DataManager.shared
+    @StateObject private var progressManager = ProgressManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(dataManager)
+                .environmentObject(progressManager)
+                .preferredColorScheme(.dark)
         }
-        .modelContainer(sharedModelContainer)
     }
 }
