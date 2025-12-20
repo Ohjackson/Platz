@@ -1,6 +1,136 @@
 [
     {
         "id": "quote_01",
+        "de": "Lernen bedeutet nicht, mich zu drängen, sondern für mein Morgen zu sorgen.",
+        "ko": "공부란 나를 몰아붙이는 일이 아니라, 내일의 나를 돌보는 일이다.",
+        "author": null,
+        "tags": [
+            "learning",
+            "self-care",
+            "motivation"
+        ],
+        "explain": "drängen(몰아붙이다)를 부정함으로써 공부 = 압박이 아니라는 것을 강조합니다. sorgen für(~을 돌보다)를 선택함으로써 공부를 '미래의 나를 위한 배려'로 재정의한 문장입니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_02",
+        "de": "Eine Seite von heute bringt mich eines Tages am weitesten.",
+        "ko": "오늘의 한 페이지는 언젠가 나를 가장 멀리 데려간다.",
+        "author": null,
+        "tags": [
+            "consistency",
+            "progress",
+            "patience"
+        ],
+        "explain": "eine Seite는 아주 작고 사소한 단위, eines Tages는 당장은 아니지만 언젠가, am weitesten은 가장 멀리를 의미합니다. '대단한 하루'가 아니라 '지속된 하루'를 믿는 문장입니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_03",
+        "de": "Langsam zu gehen ist in Ordnung. Solange ich nicht stehen bleibe.",
+        "ko": "천천히 가도 괜찮다. 멈추지만 않는다면.",
+        "author": null,
+        "tags": [
+            "perseverance",
+            "encouragement",
+            "pace"
+        ],
+        "explain": "속도에 대한 자기 용서를 담고 있지만, 멈춤만은 거부합니다. '느린 나도 괜찮다. 포기만 하지 않으면.'이라는 위로를 전합니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_04",
+        "de": "Die Zeit der Konzentration mag kurz sein, doch das, was sich sammelt, bleibt lange.",
+        "ko": "집중한 시간은 짧을지라도, 쌓인 것들은 오래 남는다.",
+        "author": null,
+        "tags": [
+            "focus",
+            "accumulation",
+            "learning"
+        ],
+        "explain": "mag ... sein은 '~일지도 모른다'로 자기 상태를 비난하지 않습니다. sich sammeln은 '쌓이다, 축적되다'를 의미합니다. 짧은 집중도 '무의미하지 않다'는 선언입니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_05",
+        "de": "Die Mühe von heute nimmt die Sorgen von morgen ganz leise weg.",
+        "ko": "오늘의 수고는 내일의 걱정을 아주 조용히 덜어낸다.",
+        "author": null,
+        "tags": [
+            "effort",
+            "anxiety",
+            "future"
+        ],
+        "explain": "Mühe는 애씀, 수고, 보이지 않는 노력을 의미합니다. ganz leise는 '조용히, 티 나지 않게'라는 뜻으로, 노력은 즉각적인 보상이 아니라 불안을 줄여주는 방향으로 작용한다는 것을 표현합니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_06",
+        "de": "Disziplin bedeutet nicht Härte, sondern Verlässlichkeit mir selbst gegenüber.",
+        "ko": "규율이란 나를 몰아세우는 냉혹함이 아니라, 나 자신에게 신뢰할 수 있는 태도다.",
+        "author": null,
+        "tags": [
+            "discipline",
+            "self-trust",
+            "consistency"
+        ],
+        "explain": "Disziplin(규율, 자기관리), Härte(냉혹함, 가혹함), Verlässlichkeit(신뢰 가능함, 일관성), mir selbst gegenüber(나 자신에게). 자기관리의 정의를 성숙하게 재해석한 문장입니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_07",
+        "de": "Nicht jede Anstrengung zeigt sofort Wirkung, doch keine bleibt folgenlos.",
+        "ko": "모든 노력이 곧바로 효과를 드러내지는 않지만, 어떤 노력도 흔적 없이 사라지지는 않는다.",
+        "author": null,
+        "tags": [
+            "effort",
+            "delayed-gratification",
+            "trust"
+        ],
+        "explain": "Anstrengung은 수고, 노력(Mühe보다 한 단계 강함), Wirkung zeigen은 효과를 보이다, folgenlos는 결과 없는, 영향 없는을 의미합니다. 지연된 보상에 대한 신뢰를 담은 문장입니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_08",
+        "de": "Ich lerne nicht gegen die Erschöpfung, sondern durch sie hindurch.",
+        "ko": "나는 피로에 맞서 공부하는 것이 아니라, 그 피로를 통과하며 공부한다.",
+        "author": null,
+        "tags": [
+            "burnout",
+            "resilience",
+            "acceptance"
+        ],
+        "explain": "Erschöpfung은 소진, 탈진, gegen은 ~에 맞서, hindurch는 관통하여, 지나서를 의미합니다. 번아웃조차 학습의 일부로 받아들이는 문장입니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_09",
+        "de": "Konzentration ist kein Dauerzustand, sondern ein wiederkehrender Moment.",
+        "ko": "집중은 지속되는 상태가 아니라, 반복해서 찾아오는 순간이다.",
+        "author": null,
+        "tags": [
+            "focus",
+            "mindfulness",
+            "acceptance"
+        ],
+        "explain": "Dauerzustand는 영속 상태, wiederkehrend은 되풀이되는, Moment는 순간을 의미합니다. 집중력 저하에 대한 자기비난을 멈추게 하는 문장입니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_10",
+        "de": "Was ich heute nicht verstehe, widerspricht meinem Weg nicht.",
+        "ko": "오늘 이해하지 못한 것이 내가 가고 있는 길을 부정하지는 않는다.",
+        "author": null,
+        "tags": [
+            "learning",
+            "patience",
+            "self-compassion"
+        ],
+        "explain": "widersprechen은 반박하다, 부정하다, der Weg는 방향, 과정, 삶의 궤적을 의미합니다. '이해하지 못함'을 실패로 보지 않는 태도를 담고 있습니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_11",
         "de": "Wer nicht wagt, der nicht gewinnt.",
         "ko": "감히 도전하지 않으면 얻는 것도 없다.",
         "author": null,
@@ -12,7 +142,7 @@
         "level": "beginner"
     },
     {
-        "id": "quote_02",
+        "id": "quote_12",
         "de": "Übung macht den Meister.",
         "ko": "연습이 달인을 만든다.",
         "author": null,
@@ -24,7 +154,7 @@
         "level": "beginner"
     },
     {
-        "id": "quote_03",
+        "id": "quote_13",
         "de": "Aller Anfang ist schwer.",
         "ko": "시작은 언제나 어렵다.",
         "author": null,
@@ -36,7 +166,7 @@
         "level": "beginner"
     },
     {
-        "id": "quote_04",
+        "id": "quote_14",
         "de": "Schritt für Schritt.",
         "ko": "한 걸음씩.",
         "author": null,
@@ -48,7 +178,7 @@
         "level": "beginner"
     },
     {
-        "id": "quote_05",
+        "id": "quote_15",
         "de": "Nicht heute, sondern jetzt.",
         "ko": "오늘이 아니라 '지금'.",
         "author": null,
@@ -60,7 +190,7 @@
         "level": "beginner"
     },
     {
-        "id": "quote_06",
+        "id": "quote_16",
         "de": "Bleib neugierig.",
         "ko": "호기심을 잃지 마.",
         "author": null,
@@ -72,7 +202,7 @@
         "level": "beginner"
     },
     {
-        "id": "quote_07",
+        "id": "quote_17",
         "de": "Kleine Schritte zählen.",
         "ko": "작은 발걸음도 중요하다.",
         "author": null,
@@ -84,7 +214,7 @@
         "level": "beginner"
     },
     {
-        "id": "quote_08",
+        "id": "quote_18",
         "de": "Einfach ist besser als perfekt.",
         "ko": "완벽보다 단순함이 낫다.",
         "author": null,
@@ -96,7 +226,7 @@
         "level": "beginner"
     },
     {
-        "id": "quote_09",
+        "id": "quote_19",
         "de": "Mut steht am Anfang des Handelns.",
         "ko": "용기는 행동의 시작에 있다.",
         "author": "Demokrit",
@@ -108,7 +238,7 @@
         "level": "intermediate"
     },
     {
-        "id": "quote_10",
+        "id": "quote_20",
         "de": "Du schaffst das.",
         "ko": "너는 해낼 수 있어.",
         "author": null,
