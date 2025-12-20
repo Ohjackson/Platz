@@ -1,0 +1,750 @@
+[
+    {
+        "id": "quiz_alpha_01",
+        "title": "알파벳 퀴즈: 특수문자",
+        "type": "lesson",
+        "sourceLessonId": "lesson_alpha_01",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "움라우트(Umlaut)란 무엇인가요?",
+                "options": [
+                    "자음 위의 점",
+                    "모음 위의 두 점",
+                    "문장 끝의 기호",
+                    "대문자 표시"
+                ],
+                "correctAnswer": "모음 위의 두 점",
+                "explanation": "움라우트는 Ä, Ö, Ü처럼 모음 위에 있는 두 점을 말합니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "ß의 발음은 무엇과 같나요?",
+                "options": [
+                    "ss",
+                    "sh",
+                    "ch",
+                    "tz"
+                ],
+                "correctAnswer": "ss",
+                "explanation": "ß(에스체트)는 날카로운 S 소리로, 영어의 ss와 같습니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "Ü의 발음과 가장 가까운 한국어 모음은?",
+                "options": [
+                    "우",
+                    "위",
+                    "으",
+                    "이"
+                ],
+                "correctAnswer": "위",
+                "explanation": "Ü는 입을 '우' 모양으로 하고 '이'를 발음하면 됩니다. 한국어 'ㅟ'와 비슷합니다."
+            },
+            {
+                "id": "q4",
+                "type": "choice",
+                "question": "다음 중 독일어에 없는 특수문자는?",
+                "options": [
+                    "Ä",
+                    "Ø",
+                    "Ü",
+                    "ß"
+                ],
+                "correctAnswer": "Ø",
+                "explanation": "Ø는 덴마크어/노르웨이어에서 사용됩니다. 독일어의 Ö와 비슷한 발음입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_alpha_02",
+        "title": "알파벳 퀴즈: 발음",
+        "type": "lesson",
+        "sourceLessonId": "lesson_alpha_03",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "독일어 W의 발음은?",
+                "options": [
+                    "w (워)",
+                    "v (브)",
+                    "f (프)",
+                    "b (브)"
+                ],
+                "correctAnswer": "v (브)",
+                "explanation": "독일어 W는 영어 V 발음입니다. 예: Wasser(바서) = 물"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "독일어 V의 발음은?",
+                "options": [
+                    "v 소리",
+                    "f 소리",
+                    "b 소리",
+                    "w 소리"
+                ],
+                "correctAnswer": "f 소리",
+                "explanation": "독일어 V는 영어 F 발음입니다. 예: Vater(파터) = 아버지"
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "독일어 Z의 발음은?",
+                "options": [
+                    "z 소리",
+                    "s 소리",
+                    "ts 소리",
+                    "th 소리"
+                ],
+                "correctAnswer": "ts 소리",
+                "explanation": "독일어 Z는 'ts' 소리입니다. 예: zehn(첸) = 10"
+            },
+            {
+                "id": "q4",
+                "type": "choice",
+                "question": "독일어 J는 어떤 영어 알파벳과 발음이 비슷한가요?",
+                "options": [
+                    "J",
+                    "Y",
+                    "G",
+                    "H"
+                ],
+                "correctAnswer": "Y",
+                "explanation": "독일어 J는 영어 Y 발음입니다. 예: Ja(야) = 네"
+            }
+        ]
+    },
+    {
+        "id": "quiz_num_01",
+        "title": "숫자 퀴즈: 1-20",
+        "type": "lesson",
+        "sourceLessonId": "lesson_num_01",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'drei'는 몇인가요?",
+                "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "correctAnswer": "3",
+                "explanation": "drei(드라이) = 3"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'sieben'은 몇인가요?",
+                "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "8"
+                ],
+                "correctAnswer": "7",
+                "explanation": "sieben(지벤) = 7"
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "12를 독일어로 하면?",
+                "options": [
+                    "zehn",
+                    "elf",
+                    "zwölf",
+                    "dreizehn"
+                ],
+                "correctAnswer": "zwölf",
+                "explanation": "zwölf(츠뵐프) = 12"
+            },
+            {
+                "id": "q4",
+                "type": "choice",
+                "question": "'fünf'는 몇인가요?",
+                "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "15"
+                ],
+                "correctAnswer": "5",
+                "explanation": "fünf(퓐프) = 5"
+            },
+            {
+                "id": "q5",
+                "type": "choice",
+                "question": "10을 독일어로 하면?",
+                "options": [
+                    "neun",
+                    "zehn",
+                    "elf",
+                    "zwölf"
+                ],
+                "correctAnswer": "zehn",
+                "explanation": "zehn(첸) = 10"
+            }
+        ]
+    },
+    {
+        "id": "quiz_num_02",
+        "title": "숫자 퀴즈: 21-99",
+        "type": "lesson",
+        "sourceLessonId": "lesson_num_02",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "21을 독일어로 읽는 순서는?",
+                "options": [
+                    "20 + 1",
+                    "1 + und + 20",
+                    "2 + 1",
+                    "10 + 11"
+                ],
+                "correctAnswer": "1 + und + 20",
+                "explanation": "21 = einundzwanzig = 1(ein) + und + 20(zwanzig)"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'fünfundvierzig'는 몇인가요?",
+                "options": [
+                    "40",
+                    "45",
+                    "54",
+                    "55"
+                ],
+                "correctAnswer": "45",
+                "explanation": "fünfundvierzig = 5 + und + 40 = 45"
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "67을 독일어로 하면?",
+                "options": [
+                    "sechsundsiebzig",
+                    "siebenundsechzig",
+                    "siebenunsechzig",
+                    "sechssieben"
+                ],
+                "correctAnswer": "siebenundsechzig",
+                "explanation": "67 = 7 + und + 60 = siebenundsechzig"
+            },
+            {
+                "id": "q4",
+                "type": "choice",
+                "question": "'und'의 뜻은?",
+                "options": [
+                    "더하기",
+                    "그리고",
+                    "빼기",
+                    "곱하기"
+                ],
+                "correctAnswer": "그리고",
+                "explanation": "und는 영어 'and'와 같은 '그리고'라는 뜻입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_gram_01",
+        "title": "문법 퀴즈: sein 동사",
+        "type": "lesson",
+        "sourceLessonId": "lesson_gram_01",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'ich'에 맞는 sein 동사 형태는?",
+                "options": [
+                    "bist",
+                    "bin",
+                    "ist",
+                    "sind"
+                ],
+                "correctAnswer": "bin",
+                "explanation": "ich bin = I am (나는 ~이다)"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'Sie sind' (대문자 Sie)의 의미는?",
+                "options": [
+                    "그녀는 ~이다",
+                    "그들은 ~이다",
+                    "당신은 ~이다",
+                    "우리는 ~이다"
+                ],
+                "correctAnswer": "당신은 ~이다",
+                "explanation": "Sie(대문자)는 존칭 '당신'입니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "'du'에 맞는 sein 동사 형태는?",
+                "options": [
+                    "bin",
+                    "bist",
+                    "ist",
+                    "seid"
+                ],
+                "correctAnswer": "bist",
+                "explanation": "du bist = you are (너는 ~이다)"
+            },
+            {
+                "id": "q4",
+                "type": "choice",
+                "question": "'wir'에 맞는 sein 동사 형태는?",
+                "options": [
+                    "bin",
+                    "seid",
+                    "sind",
+                    "ist"
+                ],
+                "correctAnswer": "sind",
+                "explanation": "wir sind = we are (우리는 ~이다)"
+            },
+            {
+                "id": "q5",
+                "type": "choice",
+                "question": "'er ist'의 의미는?",
+                "options": [
+                    "나는 ~이다",
+                    "너는 ~이다",
+                    "그는 ~이다",
+                    "우리는 ~이다"
+                ],
+                "correctAnswer": "그는 ~이다",
+                "explanation": "er ist = he is (그는 ~이다)"
+            }
+        ]
+    },
+    {
+        "id": "quiz_gram_02",
+        "title": "문법 퀴즈: 관사",
+        "type": "lesson",
+        "sourceLessonId": "lesson_gram_02",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'der'는 어떤 성의 관사인가요?",
+                "options": [
+                    "남성",
+                    "여성",
+                    "중성",
+                    "복수"
+                ],
+                "correctAnswer": "남성",
+                "explanation": "der는 남성 명사의 정관사입니다. 예: der Mann"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'das Kind'에서 Kind의 성은?",
+                "options": [
+                    "남성",
+                    "여성",
+                    "중성",
+                    "복수"
+                ],
+                "correctAnswer": "중성",
+                "explanation": "das는 중성 관사이므로 Kind(아이)는 중성 명사입니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "-ung으로 끝나는 명사는 보통 어떤 관사를 써요?",
+                "options": [
+                    "der",
+                    "die",
+                    "das",
+                    "정해진 게 없다"
+                ],
+                "correctAnswer": "die",
+                "explanation": "-ung으로 끝나는 명사는 거의 항상 여성(die)입니다. 예: die Zeitung"
+            },
+            {
+                "id": "q4",
+                "type": "choice",
+                "question": "'die Frau'에서 Frau의 성은?",
+                "options": [
+                    "남성",
+                    "여성",
+                    "중성",
+                    "복수"
+                ],
+                "correctAnswer": "여성",
+                "explanation": "die는 여성 관사이므로 Frau(여자)는 여성 명사입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_dialog_01",
+        "title": "회화 퀴즈: 인사",
+        "type": "dialog",
+        "sourceLessonId": null,
+        "sourceDialogId": "dialog_greeting",
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'Hallo'의 의미는?",
+                "options": [
+                    "안녕",
+                    "감사합니다",
+                    "미안해요",
+                    "잘 가"
+                ],
+                "correctAnswer": "안녕",
+                "explanation": "Hallo(할로) = 안녕 (비공식 인사)"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'Wie geht's?'의 의미는?",
+                "options": [
+                    "이름이 뭐예요?",
+                    "어디 가세요?",
+                    "어떻게 지내?",
+                    "몇 시예요?"
+                ],
+                "correctAnswer": "어떻게 지내?",
+                "explanation": "Wie geht's? = How are you? (어떻게 지내?)"
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "'Gut, danke!'의 의미는?",
+                "options": [
+                    "안녕히 가세요",
+                    "좋아요, 고마워요",
+                    "만나서 반갑습니다",
+                    "천만에요"
+                ],
+                "correctAnswer": "좋아요, 고마워요",
+                "explanation": "Gut, danke! = Good, thanks!"
+            },
+            {
+                "id": "q4",
+                "type": "choice",
+                "question": "공손하게 '고마워요'라고 할 때는?",
+                "options": [
+                    "Danke",
+                    "Danke schön",
+                    "Bitte",
+                    "Hallo"
+                ],
+                "correctAnswer": "Danke schön",
+                "explanation": "Danke schön은 Danke보다 더 정중한 감사 표현입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_alpha_03",
+        "title": "알파벳 퀴즈: A-J",
+        "type": "lesson",
+        "sourceLessonId": "lesson_alpha_02",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "독일어 'J'의 소문자 발음은 무엇과 비슷한가요?",
+                "options": [
+                    "영어 J",
+                    "영어 Y",
+                    "영어 G",
+                    "영어 H"
+                ],
+                "correctAnswer": "영어 Y",
+                "explanation": "독일어 J는 '요트'라고 읽으며, 실제 발음은 영어의 Y와 같습니다. 예: Ja(야)"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "다음 중 'G'의 독일어 읽기 방식은?",
+                "options": [
+                    "지",
+                    "게",
+                    "가",
+                    "기"
+                ],
+                "correctAnswer": "게",
+                "explanation": "독일어 G는 '게'라고 읽습니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_num_03",
+        "title": "숫자 퀴즈: 큰 숫자",
+        "type": "lesson",
+        "sourceLessonId": "lesson_num_03",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "100을 독일어로 뭐라고 하나요?",
+                "options": [
+                    "zehn",
+                    "tausend",
+                    "hundert",
+                    "million"
+                ],
+                "correctAnswer": "hundert",
+                "explanation": "100은 hundert(훈더트)입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "1000을 독일어로 뭐라고 하나요?",
+                "options": [
+                    "hundert",
+                    "tausend",
+                    "zehntausend",
+                    "million"
+                ],
+                "correctAnswer": "tausend",
+                "explanation": "1000은 tausend(타우젠트)입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_gram_03",
+        "title": "문법 퀴즈: haben 동사",
+        "type": "lesson",
+        "sourceLessonId": "lesson_gram_03",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'ich'에 맞는 haben 동사 형태는?",
+                "options": [
+                    "habe",
+                    "hast",
+                    "hat",
+                    "haben"
+                ],
+                "correctAnswer": "habe",
+                "explanation": "ich habe = I have"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "독일어에서 '배고픔(Hunger)'을 표현할 때 쓰는 동사는?",
+                "options": [
+                    "sein",
+                    "haben",
+                    "machen",
+                    "gehen"
+                ],
+                "correctAnswer": "haben",
+                "explanation": "독일어에서는 배고픔을 '가지고 있다'고 표현합니다. 예: Ich habe Hunger."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "'du'에 맞는 haben 동사 형태는?",
+                "options": [
+                    "habe",
+                    "hast",
+                    "hat",
+                    "habt"
+                ],
+                "correctAnswer": "hast",
+                "explanation": "du hast = you have"
+            }
+        ]
+    },
+    {
+        "id": "quiz_conv_01",
+        "title": "회화 퀴즈: 인사와 소개",
+        "type": "lesson",
+        "sourceLessonId": "lesson_conv_01",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "낮에 격식 있게 하는 인사는?",
+                "options": [
+                    "Hallo",
+                    "Guten Morgen",
+                    "Guten Tag",
+                    "Guten Abend"
+                ],
+                "correctAnswer": "Guten Tag",
+                "explanation": "Guten Tag은 낮 시간에 하는 표준적인 격식 인사입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'제 이름은 ...입니다'를 독일어로 하면?",
+                "options": [
+                    "Ich bin...",
+                    "Ich heiße...",
+                    "Mein Name ist...",
+                    "모두 정답"
+                ],
+                "correctAnswer": "모두 정답",
+                "explanation": "세 표현 모두 이름을 소개할 때 사용 가능합니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_conv_02",
+        "title": "회화 퀴즈: 안부",
+        "type": "lesson",
+        "sourceLessonId": "lesson_conv_02",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "격식 있게 '어떻게 지내세요?'라고 묻는다면?",
+                "options": [
+                    "Wie geht's?",
+                    "Wie geht es dir?",
+                    "Wie geht es Ihnen?",
+                    "Was machst du?"
+                ],
+                "correctAnswer": "Wie geht es Ihnen?",
+                "explanation": "Ihnen은 Sie의 3격 형태로, 격식 있는 상대에게 묻는 표현입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_conv_03",
+        "title": "회화 퀴즈: 감사와 사과",
+        "type": "lesson",
+        "sourceLessonId": "lesson_conv_03",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'Danke'에 대한 대답으로 알맞은 것은?",
+                "options": [
+                    "Hallo",
+                    "Bitte",
+                    "Entschuldigung",
+                    "Tschüss"
+                ],
+                "correctAnswer": "Bitte",
+                "explanation": "Bitte는 '천만에요'라는 뜻으로 감사의 대답으로 쓰입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "모르는 사람의 주의를 끌거나 가볍게 사과할 때 쓰는 말은?",
+                "options": [
+                    "Es tut mir leid",
+                    "Danke",
+                    "Entschuldigung",
+                    "Guten Tag"
+                ],
+                "correctAnswer": "Entschuldigung",
+                "explanation": "Entschuldigung은 '실례합니다' 또는 가벼운 사과를 할 때 사용합니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_dialog_02",
+        "title": "회화 퀴즈: 카페에서",
+        "type": "dialog",
+        "sourceLessonId": null,
+        "sourceDialogId": "dialog_cafe_01",
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'부탁합니다' 혹은 주문할 때 뒤에 붙이는 말은?",
+                "options": [
+                    "Danke",
+                    "Bitte",
+                    "Hallo",
+                    "Tschüss"
+                ],
+                "correctAnswer": "Bitte",
+                "explanation": "주문할 때 메뉴 뒤에 Bitte를 붙이면 정중한 표현이 됩니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'Das macht 5 Euro'의 뜻은?",
+                "options": [
+                    "5유로를 만듭니다",
+                    "5유로입니다 (합계)",
+                    "5유로가 남았습니다",
+                    "5유로를 주세요"
+                ],
+                "correctAnswer": "5유로입니다 (합계)",
+                "explanation": "계산 시 합계를 말할 때 'Das macht...'를 사용합니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_dialog_03",
+        "title": "회화 퀴즈: 길 묻기",
+        "type": "dialog",
+        "sourceLessonId": null,
+        "sourceDialogId": "dialog_directions_01",
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'기차역'을 독일어로 뭐라고 하나요?",
+                "options": [
+                    "Flughafen",
+                    "Bahnhof",
+                    "Supermarkt",
+                    "Rathaus"
+                ],
+                "correctAnswer": "Bahnhof",
+                "explanation": "Bahnhof는 기차역입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'직진하세요'를 독일어로 표현하면?",
+                "options": [
+                    "Gehen Sie links",
+                    "Gehen Sie rechts",
+                    "Gehen Sie geradeaus",
+                    "Halt!"
+                ],
+                "correctAnswer": "Gehen Sie geradeaus",
+                "explanation": "geradeaus는 '직진'을 뜻합니다."
+            }
+        ]
+    }
+]

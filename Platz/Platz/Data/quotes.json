@@ -1,0 +1,122 @@
+[
+    {
+        "id": "quote_01",
+        "de": "Wer nicht wagt, der nicht gewinnt.",
+        "ko": "감히 도전하지 않으면 얻는 것도 없다.",
+        "author": null,
+        "tags": [
+            "motivation",
+            "courage"
+        ],
+        "explain": "wagt는 '도전하다/감행하다', gewinnt는 '이기다/얻다'를 의미합니다. 도전 없이는 성취도 없다는 독일의 대표적인 속담입니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_02",
+        "de": "Übung macht den Meister.",
+        "ko": "연습이 달인을 만든다.",
+        "author": null,
+        "tags": [
+            "practice",
+            "learning"
+        ],
+        "explain": "Übung은 '연습', Meister는 '명인/달인'을 의미합니다. 영어의 'Practice makes perfect'와 같은 의미의 속담입니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_03",
+        "de": "Aller Anfang ist schwer.",
+        "ko": "시작은 언제나 어렵다.",
+        "author": null,
+        "tags": [
+            "beginning",
+            "encouragement"
+        ],
+        "explain": "Anfang은 '시작', schwer는 '어렵다'를 의미합니다. 새로운 것을 시작할 때 격려의 말로 자주 사용됩니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_04",
+        "de": "Schritt für Schritt.",
+        "ko": "한 걸음씩.",
+        "author": null,
+        "tags": [
+            "patience",
+            "progress"
+        ],
+        "explain": "Schritt는 '걸음/단계'를 의미합니다. 차근차근 나아가자는 격려의 표현입니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_05",
+        "de": "Nicht heute, sondern jetzt.",
+        "ko": "오늘이 아니라 '지금'.",
+        "author": null,
+        "tags": [
+            "action",
+            "motivation"
+        ],
+        "explain": "heute는 '오늘', jetzt는 '지금', sondern은 '~가 아니라'를 의미합니다. 미루지 말고 당장 시작하라는 의미입니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_06",
+        "de": "Bleib neugierig.",
+        "ko": "호기심을 잃지 마.",
+        "author": null,
+        "tags": [
+            "curiosity",
+            "learning"
+        ],
+        "explain": "bleib는 '~하게 있어라'(명령형), neugierig는 '호기심 많은'을 의미합니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_07",
+        "de": "Kleine Schritte zählen.",
+        "ko": "작은 발걸음도 중요하다.",
+        "author": null,
+        "tags": [
+            "progress",
+            "encouragement"
+        ],
+        "explain": "kleine는 '작은', Schritte는 '걸음들', zählen는 '중요하다/가치가 있다'를 의미합니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_08",
+        "de": "Einfach ist besser als perfekt.",
+        "ko": "완벽보다 단순함이 낫다.",
+        "author": null,
+        "tags": [
+            "simplicity",
+            "mindset"
+        ],
+        "explain": "einfach는 '단순한', besser는 '더 나은', perfekt는 '완벽한'을 의미합니다.",
+        "level": "beginner"
+    },
+    {
+        "id": "quote_09",
+        "de": "Mut steht am Anfang des Handelns.",
+        "ko": "용기는 행동의 시작에 있다.",
+        "author": "Demokrit",
+        "tags": [
+            "courage",
+            "action"
+        ],
+        "explain": "Mut는 '용기', Anfang은 '시작', Handeln은 '행동'을 의미합니다. 고대 그리스 철학자 데모크리토스의 명언입니다.",
+        "level": "intermediate"
+    },
+    {
+        "id": "quote_10",
+        "de": "Du schaffst das.",
+        "ko": "너는 해낼 수 있어.",
+        "author": null,
+        "tags": [
+            "encouragement",
+            "motivation"
+        ],
+        "explain": "schaffen은 '해내다/성취하다'를 의미합니다. 누군가를 격려할 때 자주 사용하는 표현입니다.",
+        "level": "beginner"
+    }
+]

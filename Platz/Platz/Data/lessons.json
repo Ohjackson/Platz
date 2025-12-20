@@ -1,0 +1,586 @@
+[
+    {
+        "id": "lesson_alpha_01",
+        "track": "alphabet",
+        "title": "독일어 알파벳 소개",
+        "level": "beginner",
+        "durationMin": 5,
+        "order": 1,
+        "contentMarkdown": "독일어 알파벳은 영어와 거의 같지만, **4개의 특수문자**가 추가됩니다:\n\n- **Ä, ä** (A-움라우트)\n- **Ö, ö** (O-움라우트)\n- **Ü, ü** (U-움라우트)\n- **ß** (에스체트, 날카로운 S)",
+        "examples": [
+            {
+                "de": "Ä",
+                "ko": "에(ㅔ에 가까운 소리)",
+                "pronunciation": "에",
+                "note": "입을 '에' 모양으로"
+            },
+            {
+                "de": "Ö",
+                "ko": "외(ㅚ에 가까운 소리)",
+                "pronunciation": "외",
+                "note": "입을 '오' 모양으로 하고 '에' 발음"
+            },
+            {
+                "de": "Ü",
+                "ko": "위(ㅟ에 가까운 소리)",
+                "pronunciation": "위",
+                "note": "입을 '우' 모양으로 하고 '이' 발음"
+            },
+            {
+                "de": "ß",
+                "ko": "ss (날카로운 S)",
+                "pronunciation": "스",
+                "note": "영어 'ss'와 같음"
+            }
+        ],
+        "tips": [
+            "움라우트(Umlaut)는 모음 위의 두 점을 말합니다",
+            "ß는 스위스에서는 사용하지 않습니다"
+        ],
+        "miniQuizId": "quiz_alpha_01"
+    },
+    {
+        "id": "lesson_alpha_02",
+        "track": "alphabet",
+        "title": "A-J 발음 연습",
+        "level": "beginner",
+        "durationMin": 7,
+        "order": 2,
+        "contentMarkdown": "A부터 J까지의 발음을 연습합니다. 영어와 비슷하지만 몇 가지 차이가 있습니다.",
+        "examples": [
+            {
+                "de": "A",
+                "ko": "아",
+                "pronunciation": "아",
+                "note": "'ah' 소리"
+            },
+            {
+                "de": "B",
+                "ko": "베",
+                "pronunciation": "베",
+                "note": null
+            },
+            {
+                "de": "C",
+                "ko": "체",
+                "pronunciation": "체",
+                "note": "영어 'say'와 유사"
+            },
+            {
+                "de": "D",
+                "ko": "데",
+                "pronunciation": "데",
+                "note": null
+            },
+            {
+                "de": "E",
+                "ko": "에",
+                "pronunciation": "에",
+                "note": null
+            },
+            {
+                "de": "G",
+                "ko": "게",
+                "pronunciation": "게",
+                "note": "영어 'gay'와 유사"
+            },
+            {
+                "de": "J",
+                "ko": "요트",
+                "pronunciation": "욧",
+                "note": "영어 J와 다름!"
+            }
+        ],
+        "tips": [
+            "독일어 J는 영어 Y 발음입니다 (Ja = 야)"
+        ],
+        "miniQuizId": "quiz_alpha_03"
+    },
+    {
+        "id": "lesson_alpha_03",
+        "track": "alphabet",
+        "title": "K-Z 발음 연습",
+        "level": "beginner",
+        "durationMin": 7,
+        "order": 3,
+        "contentMarkdown": "K부터 Z까지의 발음을 연습합니다. 특히 W, V, Z 발음에 주의하세요.",
+        "examples": [
+            {
+                "de": "K",
+                "ko": "카",
+                "pronunciation": "카",
+                "note": null
+            },
+            {
+                "de": "R",
+                "ko": "에르",
+                "pronunciation": "에르",
+                "note": "목에서 굴리는 소리"
+            },
+            {
+                "de": "S",
+                "ko": "에스",
+                "pronunciation": "에스",
+                "note": "모음 앞에서는 'ㅈ'"
+            },
+            {
+                "de": "V",
+                "ko": "파우",
+                "pronunciation": "파우",
+                "note": "'f' 소리!"
+            },
+            {
+                "de": "W",
+                "ko": "베",
+                "pronunciation": "베",
+                "note": "'v' 소리!"
+            },
+            {
+                "de": "Z",
+                "ko": "체트",
+                "pronunciation": "쩻",
+                "note": "'ts' 소리"
+            }
+        ],
+        "tips": [
+            "독일어 W는 영어 V 소리",
+            "독일어 V는 영어 F 소리",
+            "독일어 Z는 'ts' 소리"
+        ],
+        "miniQuizId": "quiz_alpha_02"
+    },
+    {
+        "id": "lesson_num_01",
+        "track": "numbers",
+        "title": "숫자 1-20",
+        "level": "beginner",
+        "durationMin": 8,
+        "order": 1,
+        "contentMarkdown": "기본 숫자 1부터 20까지 배웁니다. 이 숫자들은 외워야 합니다.",
+        "examples": [
+            {
+                "de": "eins",
+                "ko": "1",
+                "pronunciation": "아인스",
+                "note": null
+            },
+            {
+                "de": "zwei",
+                "ko": "2",
+                "pronunciation": "츠바이",
+                "note": null
+            },
+            {
+                "de": "drei",
+                "ko": "3",
+                "pronunciation": "드라이",
+                "note": null
+            },
+            {
+                "de": "vier",
+                "ko": "4",
+                "pronunciation": "피어",
+                "note": null
+            },
+            {
+                "de": "fünf",
+                "ko": "5",
+                "pronunciation": "퓐프",
+                "note": null
+            },
+            {
+                "de": "sechs",
+                "ko": "6",
+                "pronunciation": "젝스",
+                "note": null
+            },
+            {
+                "de": "sieben",
+                "ko": "7",
+                "pronunciation": "지벤",
+                "note": null
+            },
+            {
+                "de": "acht",
+                "ko": "8",
+                "pronunciation": "아흐트",
+                "note": null
+            },
+            {
+                "de": "neun",
+                "ko": "9",
+                "pronunciation": "노인",
+                "note": null
+            },
+            {
+                "de": "zehn",
+                "ko": "10",
+                "pronunciation": "첸",
+                "note": null
+            }
+        ],
+        "tips": [
+            "1-12는 불규칙하므로 외워야 합니다",
+            "13부터는 규칙적: 3+10 = dreizehn"
+        ],
+        "miniQuizId": "quiz_num_01"
+    },
+    {
+        "id": "lesson_num_02",
+        "track": "numbers",
+        "title": "숫자 21-99: 거꾸로 읽기",
+        "level": "beginner",
+        "durationMin": 10,
+        "order": 2,
+        "contentMarkdown": "독일어 숫자의 특이한 점: **21부터 99까지는 일의 자리를 먼저 읽습니다!**\n\n예: 21 = einundzwanzig (1 + und + 20)",
+        "examples": [
+            {
+                "de": "einundzwanzig",
+                "ko": "21",
+                "pronunciation": "아인운트츠반치히",
+                "note": "1 und 20"
+            },
+            {
+                "de": "zweiunddreißig",
+                "ko": "32",
+                "pronunciation": "츠바이운트드라이시히",
+                "note": "2 und 30"
+            },
+            {
+                "de": "fünfundvierzig",
+                "ko": "45",
+                "pronunciation": "퓐프운트피어치히",
+                "note": "5 und 40"
+            },
+            {
+                "de": "siebenundneunzig",
+                "ko": "97",
+                "pronunciation": "지벤운트노인치히",
+                "note": "7 und 90"
+            }
+        ],
+        "tips": [
+            "항상 '일의 자리 + und + 십의 자리' 순서",
+            "und는 '그리고'라는 뜻"
+        ],
+        "miniQuizId": "quiz_num_02"
+    },
+    {
+        "id": "lesson_num_03",
+        "track": "numbers",
+        "title": "100 이상의 큰 숫자",
+        "level": "intermediate",
+        "durationMin": 8,
+        "order": 3,
+        "contentMarkdown": "100 이상의 숫자는 앞에서부터 읽습니다.\n\n**100** = hundert\n**1,000** = tausend\n**1,000,000** = eine Million",
+        "examples": [
+            {
+                "de": "hundert",
+                "ko": "100",
+                "pronunciation": "훈더트",
+                "note": null
+            },
+            {
+                "de": "zweihundertvierundfünfzig",
+                "ko": "254",
+                "pronunciation": "츠바이훈더트피어운트퓐프치히",
+                "note": "200 + 54"
+            },
+            {
+                "de": "tausend",
+                "ko": "1000",
+                "pronunciation": "타우젠트",
+                "note": null
+            },
+            {
+                "de": "dreitausend",
+                "ko": "3000",
+                "pronunciation": "드라이타우젠트",
+                "note": null
+            }
+        ],
+        "tips": [
+            "년도도 숫자처럼 읽습니다: 2024 = zweitausendvierundzwanzig"
+        ],
+        "miniQuizId": "quiz_num_03"
+    },
+    {
+        "id": "lesson_gram_01",
+        "track": "grammar",
+        "title": "인칭대명사와 sein 동사",
+        "level": "beginner",
+        "durationMin": 10,
+        "order": 1,
+        "contentMarkdown": "독일어의 인칭대명사와 가장 중요한 동사 **sein**(~이다)을 배웁니다.\n\nsein은 영어의 be 동사처럼 매우 불규칙합니다.",
+        "examples": [
+            {
+                "de": "ich bin",
+                "ko": "나는 ~이다",
+                "pronunciation": "이히 빈",
+                "note": "I am"
+            },
+            {
+                "de": "du bist",
+                "ko": "너는 ~이다",
+                "pronunciation": "두 비스트",
+                "note": "you are (친한 사이)"
+            },
+            {
+                "de": "er/sie/es ist",
+                "ko": "그/그녀/그것은 ~이다",
+                "pronunciation": "이스트",
+                "note": "he/she/it is"
+            },
+            {
+                "de": "wir sind",
+                "ko": "우리는 ~이다",
+                "pronunciation": "비어 진트",
+                "note": "we are"
+            },
+            {
+                "de": "Sie sind",
+                "ko": "당신은 ~이다",
+                "pronunciation": "지 진트",
+                "note": "you are (존칭)"
+            }
+        ],
+        "tips": [
+            "Sie (대문자)는 존칭 '당신'",
+            "sie (소문자)는 '그녀' 또는 '그들'"
+        ],
+        "miniQuizId": "quiz_gram_01"
+    },
+    {
+        "id": "lesson_gram_02",
+        "track": "grammar",
+        "title": "관사 der, die, das 맛보기",
+        "level": "beginner",
+        "durationMin": 8,
+        "order": 2,
+        "contentMarkdown": "독일어 명사에는 **세 가지 성(gender)**이 있습니다:\n\n- **der** (남성)\n- **die** (여성)\n- **das** (중성)\n\n단어를 외울 때 관사와 함께 외우세요!",
+        "examples": [
+            {
+                "de": "der Mann",
+                "ko": "남자",
+                "pronunciation": "데어 만",
+                "note": "남성 명사"
+            },
+            {
+                "de": "die Frau",
+                "ko": "여자",
+                "pronunciation": "디 프라우",
+                "note": "여성 명사"
+            },
+            {
+                "de": "das Kind",
+                "ko": "아이",
+                "pronunciation": "다스 킨트",
+                "note": "중성 명사"
+            },
+            {
+                "de": "der Tisch",
+                "ko": "테이블",
+                "pronunciation": "데어 티쉬",
+                "note": "남성"
+            },
+            {
+                "de": "die Lampe",
+                "ko": "램프",
+                "pronunciation": "디 람페",
+                "note": "여성"
+            },
+            {
+                "de": "das Buch",
+                "ko": "책",
+                "pronunciation": "다스 부흐",
+                "note": "중성"
+            }
+        ],
+        "tips": [
+            "-ung, -heit, -keit로 끝나면 보통 die",
+            "-chen, -lein으로 끝나면 항상 das"
+        ],
+        "miniQuizId": "quiz_gram_02"
+    },
+    {
+        "id": "lesson_gram_03",
+        "track": "grammar",
+        "title": "haben 동사 활용",
+        "level": "beginner",
+        "durationMin": 8,
+        "order": 3,
+        "contentMarkdown": "**haben**(가지다)은 sein과 함께 가장 중요한 동사입니다.\n\n소유, 나이, 배고픔 등을 표현할 때 사용합니다.",
+        "examples": [
+            {
+                "de": "ich habe",
+                "ko": "나는 가지고 있다",
+                "pronunciation": "이히 하베",
+                "note": "I have"
+            },
+            {
+                "de": "du hast",
+                "ko": "너는 가지고 있다",
+                "pronunciation": "두 하스트",
+                "note": "you have"
+            },
+            {
+                "de": "er/sie hat",
+                "ko": "그/그녀는 가지고 있다",
+                "pronunciation": "하트",
+                "note": "he/she has"
+            },
+            {
+                "de": "Ich habe Hunger",
+                "ko": "나는 배고프다",
+                "pronunciation": "이히 하베 훙어",
+                "note": "배고픔을 '가지다'고 표현"
+            },
+            {
+                "de": "Ich bin 20 Jahre alt",
+                "ko": "나는 20살이다",
+                "pronunciation": "이히 빈 츠반치히 야레 알트",
+                "note": "나이는 sein 사용!"
+            }
+        ],
+        "tips": [
+            "독일어에서 배고픔(Hunger)과 갈증(Durst)은 haben과 함께 사용",
+            "나이는 sein을 사용합니다"
+        ],
+        "miniQuizId": "quiz_gram_03"
+    },
+    {
+        "id": "lesson_conv_01",
+        "track": "conversation",
+        "title": "첫 인사와 자기소개",
+        "level": "beginner",
+        "durationMin": 6,
+        "order": 1,
+        "contentMarkdown": "첫 만남에서 쓸 수 있는 기본 인사와 자기소개 표현을 배웁니다.\n\n**Hallo!** 안녕!\n**Guten Tag!** 좋은 하루! (공식)",
+        "examples": [
+            {
+                "de": "Hallo!",
+                "ko": "안녕!",
+                "pronunciation": "할로",
+                "note": "비공식, 언제나 사용 가능"
+            },
+            {
+                "de": "Guten Tag!",
+                "ko": "좋은 하루!",
+                "pronunciation": "구텐 탁",
+                "note": "공식적인 인사"
+            },
+            {
+                "de": "Ich heiße...",
+                "ko": "저는 ...입니다",
+                "pronunciation": "이히 하이세",
+                "note": "이름 소개"
+            },
+            {
+                "de": "Wie heißen Sie?",
+                "ko": "성함이 어떻게 되세요?",
+                "pronunciation": "비 하이센 지",
+                "note": "존칭"
+            },
+            {
+                "de": "Freut mich!",
+                "ko": "만나서 반가워요!",
+                "pronunciation": "프로이트 미히",
+                "note": "만남의 기쁨 표현"
+            }
+        ],
+        "tips": [
+            "Guten Morgen (오전), Guten Tag (낮), Guten Abend (저녁)"
+        ],
+        "miniQuizId": "quiz_conv_01"
+    },
+    {
+        "id": "lesson_conv_02",
+        "track": "conversation",
+        "title": "안부 묻고 답하기",
+        "level": "beginner",
+        "durationMin": 5,
+        "order": 2,
+        "contentMarkdown": "상대방의 안부를 묻고 대답하는 표현입니다.\n\n**Wie geht's?** 어떻게 지내?",
+        "examples": [
+            {
+                "de": "Wie geht's?",
+                "ko": "어떻게 지내?",
+                "pronunciation": "비 게츠",
+                "note": "비공식"
+            },
+            {
+                "de": "Wie geht es Ihnen?",
+                "ko": "어떻게 지내세요?",
+                "pronunciation": "비 게트 에스 이넨",
+                "note": "존칭"
+            },
+            {
+                "de": "Gut, danke!",
+                "ko": "좋아요, 고마워요!",
+                "pronunciation": "구트 당케",
+                "note": "긍정 대답"
+            },
+            {
+                "de": "Nicht so gut",
+                "ko": "별로예요",
+                "pronunciation": "니히트 조 구트",
+                "note": "부정 대답"
+            },
+            {
+                "de": "Und dir?",
+                "ko": "너는?",
+                "pronunciation": "운트 디어",
+                "note": "되묻기"
+            }
+        ],
+        "tips": [
+            "dir (너에게) vs Ihnen (당신에게) - 존칭 구분 중요!"
+        ],
+        "miniQuizId": "quiz_conv_02"
+    },
+    {
+        "id": "lesson_conv_03",
+        "track": "conversation",
+        "title": "감사와 사과 표현",
+        "level": "beginner",
+        "durationMin": 5,
+        "order": 3,
+        "contentMarkdown": "일상에서 자주 쓰는 감사와 사과 표현입니다.",
+        "examples": [
+            {
+                "de": "Danke!",
+                "ko": "고마워요!",
+                "pronunciation": "당케",
+                "note": "기본 감사"
+            },
+            {
+                "de": "Danke schön!",
+                "ko": "정말 고마워요!",
+                "pronunciation": "당케 쇤",
+                "note": "더 정중한 감사"
+            },
+            {
+                "de": "Bitte!",
+                "ko": "천만에요!",
+                "pronunciation": "비테",
+                "note": "감사에 대한 대답"
+            },
+            {
+                "de": "Entschuldigung!",
+                "ko": "실례합니다!",
+                "pronunciation": "엔트슐디궁",
+                "note": "사과/주의 끌기"
+            },
+            {
+                "de": "Es tut mir leid",
+                "ko": "미안해요",
+                "pronunciation": "에스 투트 미어 라이트",
+                "note": "진심 어린 사과"
+            }
+        ],
+        "tips": [
+            "Bitte는 '부탁해요', '천만에요', '여기요' 등 여러 뜻!"
+        ],
+        "miniQuizId": "quiz_conv_03"
+    }
+]

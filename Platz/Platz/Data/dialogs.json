@@ -1,0 +1,394 @@
+[
+    {
+        "id": "dialog_greeting_01",
+        "topic": "greeting",
+        "title": "첫 만남 인사",
+        "description": "처음 만났을 때 하는 기본 인사",
+        "order": 1,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Hallo! Ich bin Anna.",
+                "ko": "안녕하세요! 저는 안나예요.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Hallo Anna! Ich bin Max. Freut mich!",
+                "ko": "안녕 안나! 나는 막스야. 만나서 반가워!",
+                "note": "'Freut mich'는 'Nice to meet you'"
+            },
+            {
+                "speaker": "A",
+                "de": "Freut mich auch! Woher kommst du?",
+                "ko": "나도 반가워! 어디에서 왔어?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Ich komme aus Berlin. Und du?",
+                "ko": "나는 베를린에서 왔어. 너는?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ich komme aus Korea.",
+                "ko": "나는 한국에서 왔어.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Oh, toll! Willkommen in Deutschland!",
+                "ko": "오, 멋지다! 독일에 온 걸 환영해!",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "Hallo",
+                "meaning": "안녕 (비격식)"
+            },
+            {
+                "word": "Ich bin...",
+                "meaning": "나는 ~이다"
+            },
+            {
+                "word": "Freut mich",
+                "meaning": "만나서 반가워"
+            },
+            {
+                "word": "Woher kommst du?",
+                "meaning": "어디에서 왔니?"
+            },
+            {
+                "word": "Ich komme aus...",
+                "meaning": "나는 ~에서 왔다"
+            },
+            {
+                "word": "Willkommen",
+                "meaning": "환영합니다"
+            }
+        ],
+        "quizId": "quiz_dialog_01"
+    },
+    {
+        "id": "dialog_cafe_01",
+        "topic": "cafe",
+        "title": "카페에서 주문하기",
+        "description": "카페에서 음료를 주문하는 상황",
+        "order": 2,
+        "lines": [
+            {
+                "speaker": "B",
+                "de": "Guten Tag! Was möchten Sie?",
+                "ko": "안녕하세요! 뭘 드릴까요?",
+                "note": "격식체 Sie 사용"
+            },
+            {
+                "speaker": "A",
+                "de": "Einen Kaffee, bitte.",
+                "ko": "커피 한 잔 주세요.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Mit Milch?",
+                "ko": "우유 넣을까요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ja, mit Milch. Und ein Croissant.",
+                "ko": "네, 우유 넣어주세요. 그리고 크루아상도요.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Das macht 5 Euro 50.",
+                "ko": "5유로 50센트입니다.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Hier, bitte. Danke!",
+                "ko": "여기요. 감사합니다!",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Danke! Einen schönen Tag noch!",
+                "ko": "감사합니다! 좋은 하루 보내세요!",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "Was möchten Sie?",
+                "meaning": "뭘 드릴까요? (격식)"
+            },
+            {
+                "word": "bitte",
+                "meaning": "주세요 / 부탁합니다"
+            },
+            {
+                "word": "mit",
+                "meaning": "~와 함께"
+            },
+            {
+                "word": "Das macht...",
+                "meaning": "(가격이) ~입니다"
+            },
+            {
+                "word": "Danke",
+                "meaning": "감사합니다"
+            },
+            {
+                "word": "Einen schönen Tag",
+                "meaning": "좋은 하루 되세요"
+            }
+        ],
+        "quizId": "quiz_dialog_02"
+    },
+    {
+        "id": "dialog_directions_01",
+        "topic": "directions",
+        "title": "길 묻기",
+        "description": "거리에서 목적지까지 가는 길을 묻는 상황",
+        "order": 3,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Entschuldigung, wo ist der Bahnhof?",
+                "ko": "실례합니다, 기차역이 어디예요?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Der Bahnhof? Gehen Sie geradeaus.",
+                "ko": "기차역이요? 직진하세요.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Und dann?",
+                "ko": "그 다음엔요?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Dann links an der Ampel.",
+                "ko": "그 다음 신호등에서 왼쪽으로요.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ist es weit?",
+                "ko": "멀리 있나요?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Nein, etwa 5 Minuten zu Fuß.",
+                "ko": "아니요, 걸어서 약 5분이에요.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Vielen Dank!",
+                "ko": "정말 감사합니다!",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "Entschuldigung",
+                "meaning": "실례합니다"
+            },
+            {
+                "word": "Wo ist...?",
+                "meaning": "~가 어디에 있나요?"
+            },
+            {
+                "word": "der Bahnhof",
+                "meaning": "기차역"
+            },
+            {
+                "word": "geradeaus",
+                "meaning": "직진"
+            },
+            {
+                "word": "links / rechts",
+                "meaning": "왼쪽 / 오른쪽"
+            },
+            {
+                "word": "die Ampel",
+                "meaning": "신호등"
+            },
+            {
+                "word": "zu Fuß",
+                "meaning": "걸어서"
+            }
+        ],
+        "quizId": "quiz_dialog_03"
+    },
+    {
+        "id": "dialog_bakery_01",
+        "topic": "shopping",
+        "title": "빵집에서",
+        "description": "빵집에서 빵을 구매하는 상황",
+        "order": 4,
+        "lines": [
+            {
+                "speaker": "B",
+                "de": "Guten Morgen! Wer ist der Nächste?",
+                "ko": "좋은 아침입니다! 다음 분요?",
+                "note": "'Wer ist dran?'과 같은 의미"
+            },
+            {
+                "speaker": "A",
+                "de": "Ich, bitte. Ich hätte gerne drei Brötchen.",
+                "ko": "저요. 빵(롤빵) 세 개 주세요.",
+                "note": "Ich hätte gerne = I would like"
+            },
+            {
+                "speaker": "B",
+                "de": "Sonst noch etwas?",
+                "ko": "그 외에 더 필요하신 건 없나요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ja, noch ein Stück Käsekuchen, bitte.",
+                "ko": "네, 치즈케이크 한 조각 더 주세요.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Ist das alles?",
+                "ko": "그게 전부인가요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ja, das ist alles. Wie viel kostet das?",
+                "ko": "네, 그게 다예요. 얼마나요?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Das macht 6 Euro 20, bitte.",
+                "ko": "6유로 20센트입니다.",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "der Nächste",
+                "meaning": "다음 사람"
+            },
+            {
+                "word": "Ich hätte gerne",
+                "meaning": "~를 원해요 (정중)"
+            },
+            {
+                "word": "das Brötchen",
+                "meaning": "독일식 작은 빵"
+            },
+            {
+                "word": "Sonst noch etwas?",
+                "meaning": "더 필요한 것은?"
+            },
+            {
+                "word": "das Stück",
+                "meaning": "조각"
+            },
+            {
+                "word": "Wie viel kostet...?",
+                "meaning": "~는 얼마인가요?"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_hotel_01",
+        "topic": "travel",
+        "title": "호텔 체크인",
+        "description": "호텔에 도착해 체크인하는 상황",
+        "order": 5,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Guten Abend. Ich möchte einchecken.",
+                "ko": "안녕하세요(저녁). 체크인하고 싶습니다.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Guten Abend. Haben Sie reserviert?",
+                "ko": "안녕하세요. 예약하셨나요?",
+                "note": "reserviert = 예약된"
+            },
+            {
+                "speaker": "A",
+                "de": "Ja, auf den Namen Kim.",
+                "ko": "네, '김'이라는 이름으로 했습니다.",
+                "note": "auf den Namen = ~라는 이름으로"
+            },
+            {
+                "speaker": "B",
+                "de": "Einen Moment... Ja, ein Einzelzimmer für zwei Nächte?",
+                "ko": "잠시만요... 네, 2박 싱글룸 맞으시죠?",
+                "note": "Einzelzimmer (1인실) / Doppelzimmer (2인실)"
+            },
+            {
+                "speaker": "A",
+                "de": "Genau. Ist das Frühstück inklusive?",
+                "ko": "맞아요. 조식이 포함되어 있나요?",
+                "note": "inklusive = 포함된"
+            },
+            {
+                "speaker": "B",
+                "de": "Ja, Frühstück ist von 7 bis 10 Uhr.",
+                "ko": "네, 조식은 7시부터 10시까지입니다.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Super, danke schön!",
+                "ko": "좋네요, 감사합니다!",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "einchecken",
+                "meaning": "체크인하다"
+            },
+            {
+                "word": "reservieren",
+                "meaning": "예약하다"
+            },
+            {
+                "word": "der Moment",
+                "meaning": "잠깐/순간"
+            },
+            {
+                "word": "das Einzelzimmer",
+                "meaning": "1인실"
+            },
+            {
+                "word": "die Nacht",
+                "meaning": "밤 (숙박)"
+            },
+            {
+                "word": "das Frühstück",
+                "meaning": "아침식사"
+            },
+            {
+                "word": "inklusive",
+                "meaning": "포함된"
+            }
+        ],
+        "quizId": null
+    }
+]
