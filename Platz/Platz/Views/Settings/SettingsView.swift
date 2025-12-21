@@ -191,11 +191,11 @@ struct AboutView: View {
                         
                         // Creator
                         VStack(spacing: PlatzSpacing.sm) {
-                            Text("Planer von Daniel Cho")
+                            Text("Creator von Seunghwan Cho")
                                 .font(PlatzTypography.title2)
                                 .foregroundColor(PlatzColors.primary)
                             
-                            Text("Entwickler Micheal Ahn")
+                            Text("Entwickler Michael Ahn")
                                 .font(PlatzTypography.title3)
                                 .foregroundColor(PlatzColors.textPrimary)
                         }

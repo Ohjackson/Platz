@@ -58,6 +58,7 @@ struct HomeView: View {
                     .padding(PlatzSpacing.md)
                 }
             }
+            .navigationTitle("Platz")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 

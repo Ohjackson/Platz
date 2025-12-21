@@ -266,8 +266,8 @@ struct OnboardingPage3: View {
             
             Spacer()
             
-            Text("Planer von Daniel Cho")
-                .font(PlatzTypography.caption)
+            Text("Produced by Seunghwan Cho")
+                .font(PlatzTypography.subtitle)
                 .foregroundColor(PlatzColors.textMuted)
         }
         .padding(PlatzSpacing.lg)
