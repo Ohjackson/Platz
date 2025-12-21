@@ -42,6 +42,9 @@ enum DialogTopic: String, CaseIterable {
     case introduction = "introduction"
     case school = "school"
     case hobby = "hobby"
+    case shopping = "shopping"
+    case travel = "travel"
+    case love = "love"
     
     var displayName: String {
         switch self {
@@ -52,6 +55,9 @@ enum DialogTopic: String, CaseIterable {
         case .introduction: return "자기소개"
         case .school: return "학교/수업"
         case .hobby: return "취미"
+        case .shopping: return "쇼핑"
+        case .travel: return "여행"
+        case .love: return "사랑/고백"
         }
     }
     
@@ -64,6 +70,9 @@ enum DialogTopic: String, CaseIterable {
         case .introduction: return "person.fill"
         case .school: return "graduationcap.fill"
         case .hobby: return "gamecontroller.fill"
+        case .shopping: return "cart.fill"
+        case .travel: return "airplane.departure"
+        case .love: return "heart.fill"
         }
     }
 }

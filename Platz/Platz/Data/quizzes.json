@@ -746,5 +746,208 @@
                 "explanation": "geradeaus는 '직진'을 뜻합니다."
             }
         ]
+    },
+    {
+        "id": "quiz_gram_04",
+        "title": "문법 퀴즈: W-Fragen",
+        "type": "lesson",
+        "sourceLessonId": "lesson_gram_04",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'너는 어디서 왔니?'를 독일어로?",
+                "options": [
+                    "Woher kommst du?",
+                    "Wo wohnst du?",
+                    "Wer bist du?",
+                    "Was machst du?"
+                ],
+                "correctAnswer": "Woher kommst du?",
+                "explanation": "Woher는 '어디서(로부터)'를 의미합니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'누가'를 뜻하는 의문사는?",
+                "options": [
+                    "Was",
+                    "Wer",
+                    "Wo",
+                    "Wie"
+                ],
+                "correctAnswer": "Wer",
+                "explanation": "Wer = Who (누가)"
+            }
+        ]
+    },
+    {
+        "id": "quiz_gram_05",
+        "title": "문법 퀴즈: 부정 표현",
+        "type": "lesson",
+        "sourceLessonId": "lesson_gram_05",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "명사를 부정할 때 쓰는 표현은?",
+                "options": [
+                    "nicht",
+                    "kein",
+                    "nein",
+                    "doch"
+                ],
+                "correctAnswer": "kein",
+                "explanation": "명사 부정은 kein, 동사/형용사 부정은 nicht를 씁니다."
+            },
+            {
+                "id": "q2",
+                "type": "ox",
+                "question": "다음 문장이 맞으면 O, 틀리면 X를 고르세요: Ich nicht müde.",
+                "options": [
+                    "O",
+                    "X"
+                ],
+                "correctAnswer": "X",
+                "explanation": "틀린 문장입니다. 동사(bin)가 빠졌습니다: Ich bin nicht müde."
+            }
+        ]
+    },
+    {
+        "id": "quiz_gram_06",
+        "title": "문법 퀴즈: 전치사",
+        "type": "lesson",
+        "sourceLessonId": "lesson_gram_06",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "fill",
+                "question": "빈칸에 알맞은 전치사는? Ich wohne ___ Korea.",
+                "options": [
+                    "in",
+                    "auf",
+                    "mit",
+                    "um"
+                ],
+                "correctAnswer": "in",
+                "explanation": "나라나 도시 등 공간 안에 살 때는 'in'을 씁니다."
+            },
+            {
+                "id": "q2",
+                "type": "fill",
+                "question": "빈칸에 알맞은 전치사는? Das Buch ist ___ dem Tisch.",
+                "options": [
+                    "in",
+                    "auf",
+                    "mit",
+                    "um"
+                ],
+                "correctAnswer": "auf",
+                "explanation": "표면 '위에' 있을 때는 'auf'를 씁니다."
+            },
+            {
+                "id": "q3",
+                "type": "fill",
+                "question": "빈칸에 알맞은 전치사는? Ich fahre ___ dem Bus.",
+                "options": [
+                    "in",
+                    "auf",
+                    "mit",
+                    "um"
+                ],
+                "correctAnswer": "mit",
+                "explanation": "교통 수단은 'mit'을 씁니다."
+            },
+            {
+                "id": "q4",
+                "type": "fill",
+                "question": "빈칸에 알맞은 전치사는? Der Kurs beginnt ___ 9 Uhr.",
+                "options": [
+                    "in",
+                    "auf",
+                    "mit",
+                    "um"
+                ],
+                "correctAnswer": "um",
+                "explanation": "구체적인 시각 앞에는 'um'을 씁니다."
+            },
+            {
+                "id": "q5",
+                "type": "choice",
+                "question": "맞는 문장을 고르세요.",
+                "options": [
+                    "Das Buch ist auf dem Tisch.",
+                    "Das Buch ist mit dem Tisch."
+                ],
+                "correctAnswer": "Das Buch ist auf dem Tisch.",
+                "explanation": "책은 책상 '위에(auf)' 있습니다."
+            },
+            {
+                "id": "q6",
+                "type": "ox",
+                "question": "다음 문장이 맞으면 O, 틀리면 X: Ich lerne Deutsch in der Schule.",
+                "options": [
+                    "O",
+                    "X"
+                ],
+                "correctAnswer": "O",
+                "explanation": "학교(공간)에서 공부하므로 'in'이 맞습니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_gram_07",
+        "title": "문법 퀴즈: 소유격",
+        "type": "lesson",
+        "sourceLessonId": "lesson_gram_07",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'나의'를 독일어로?",
+                "options": [
+                    "mein",
+                    "dein",
+                    "sein",
+                    "ihr"
+                ],
+                "correctAnswer": "mein",
+                "explanation": "나의 = mein"
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "'너의'를 독일어로?",
+                "options": [
+                    "mein",
+                    "dein",
+                    "sein",
+                    "ihr"
+                ],
+                "correctAnswer": "dein",
+                "explanation": "너의 = dein"
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "'그의'를 독일어로?",
+                "options": [
+                    "mein",
+                    "dein",
+                    "sein",
+                    "ihr"
+                ],
+                "correctAnswer": "sein",
+                "explanation": "그의 = sein"
+            }
+        ]
     }
 ]

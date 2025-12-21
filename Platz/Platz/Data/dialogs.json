@@ -390,5 +390,301 @@
             }
         ],
         "quizId": null
+    },
+    {
+        "id": "dialog_travel_01",
+        "topic": "travel",
+        "title": "공항에서",
+        "description": "공항 수속을 밟거나 안내를 받는 상황",
+        "order": 6,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Entschuldigung, wo ist der Check-in-Schalter für Lufthansa?",
+                "ko": "실례합니다, 루프트한자 체크인 카운터가 어디인가요?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Gehen Sie dort drüben nach rechts. Schalter 12 bis 15.",
+                "ko": "저쪽에서 오른쪽으로 가세요. 12번에서 15번 카운터입니다.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Danke. Und wann beginnt das Boarding?",
+                "ko": "감사합니다. 탑승은 언제 시작하나요?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Um 14 Uhr 30. Gate B22.",
+                "ko": "14시 30분에요. 게이트는 B22입니다.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Haben Sie vielen Dank!",
+                "ko": "대단히 감사합니다!",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "der Check-in-Schalter",
+                "meaning": "체크인 카운터"
+            },
+            {
+                "word": "dort drüben",
+                "meaning": "저쪽에"
+            },
+            {
+                "word": "das Boarding",
+                "meaning": "탑승"
+            },
+            {
+                "word": "das Gate",
+                "meaning": "게이트 (탑승구)"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_love_01",
+        "topic": "love",
+        "title": "사랑 고백",
+        "description": "좋아하는 마음을 고백하는 로맨틱한 상황",
+        "order": 7,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Ich muss dir etwas sagen.",
+                "ko": "너한테 할 말이 있어.",
+                "note": "muss = must (해야 한다)"
+            },
+            {
+                "speaker": "B",
+                "de": "Was ist es? Du siehst ernst aus.",
+                "ko": "뭔데? 너 진지해 보여.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ich glaube, ich habe mich in dich verliebt.",
+                "ko": "나 너한테 반한 것 같아.",
+                "note": "sich verlieben in = ~에게 반하다"
+            },
+            {
+                "speaker": "B",
+                "de": "Wirklich? Das habe ich nicht erwartet...",
+                "ko": "정말? 그건 예상 못 했어...",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ich liebe dich. Willst du mit mir zusammen sein?",
+                "ko": "사랑해. 나랑 사귈래?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Ja, ich mag dich auch sehr gern!",
+                "ko": "응, 나도 너를 정말 좋아해!",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "ernst",
+                "meaning": "진지한"
+            },
+            {
+                "word": "sich verlieben",
+                "meaning": "사랑에 빠지다"
+            },
+            {
+                "word": "erwarten",
+                "meaning": "예상하다/기대하다"
+            },
+            {
+                "word": "zusammen sein",
+                "meaning": "함께 있다 (사귀다)"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_school_01",
+        "topic": "school",
+        "title": "학교 수업",
+        "description": "수업 시간에 질문하고 대답하는 상황",
+        "order": 8,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Entschuldigung, ich habe eine Frage.",
+                "ko": "죄송합니다, 질문이 있어요.",
+                "note": null
+            },
+            {
+                "speaker": "Teacher",
+                "de": "Ja, bitte? Was verstehst du nicht?",
+                "ko": "네, 말해보렴? 무엇을 이해하지 못했니?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Was bedeutet dieses Wort hier?",
+                "ko": "이 단어는 무슨 뜻인가요?",
+                "note": null
+            },
+            {
+                "speaker": "Teacher",
+                "de": "Das bedeutet 'Freiheit'.",
+                "ko": "그건 '자유'라는 뜻이야.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ach so, jetzt verstehe ich. Danke!",
+                "ko": "아하, 이제 이해했어요. 감사합니다!",
+                "note": "Ach so = 그렇군요/아하"
+            }
+        ],
+        "keywords": [
+            {
+                "word": "die Frage",
+                "meaning": "질문"
+            },
+            {
+                "word": "verstehen",
+                "meaning": "이해하다"
+            },
+            {
+                "word": "bedeuten",
+                "meaning": "의미하다"
+            },
+            {
+                "word": "die Freiheit",
+                "meaning": "자유"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_hobby_01",
+        "topic": "hobby",
+        "title": "취미 이야기",
+        "description": "서로의 취미에 대해 묻고 답하기",
+        "order": 9,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Was machst du gern in deiner Freizeit?",
+                "ko": "너는 여가 시간에 뭐 하는 걸 좋아해?",
+                "note": "Freizeit = 자유 시간"
+            },
+            {
+                "speaker": "B",
+                "de": "Ich spiele gern Fußball. Und du?",
+                "ko": "나는 축구 하는 걸 좋아해. 너는?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ich höre gern Musik und lese Bücher.",
+                "ko": "나는 음악 듣는 거랑 책 읽는 걸 좋아해.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Welche Musik magst du?",
+                "ko": "어떤 음악을 좋아해?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ich mag K-Pop und Jazz.",
+                "ko": "나는 K-Pop이랑 재즈를 좋아해.",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "die Freizeit",
+                "meaning": "여가 시간"
+            },
+            {
+                "word": "Fußball spielen",
+                "meaning": "축구하다"
+            },
+            {
+                "word": "Musik hören",
+                "meaning": "음악을 듣다"
+            },
+            {
+                "word": "Bücher lesen",
+                "meaning": "책을 읽다"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_train_01",
+        "topic": "train",
+        "title": "기차표 예매",
+        "description": "기차역 창구에서 표를 사는 상황",
+        "order": 10,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Einmal nach München, bitte.",
+                "ko": "뮌헨행 표 한 장 주세요.",
+                "note": "Einmal = one ticket (구어체)"
+            },
+            {
+                "speaker": "B",
+                "de": "Einfach oder hin und zurück?",
+                "ko": "편도인가요, 왕복인가요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Hin und zurück, bitte.",
+                "ko": "왕복으로 주세요.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Das kostet 80 Euro. Haben Sie eine BahnCard?",
+                "ko": "80유로입니다. 반카드(할인카드) 있으신가요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Nein, habe ich nicht.",
+                "ko": "아뇨, 없어요.",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "einfach",
+                "meaning": "편도 (단순한)"
+            },
+            {
+                "word": "hin und zurück",
+                "meaning": "왕복 (갔다가 다시 돌아옴)"
+            },
+            {
+                "word": "die BahnCard",
+                "meaning": "독일 철도 할인 카드"
+            },
+            {
+                "word": "kosten",
+                "meaning": "(비용이) 들다"
+            }
+        ],
+        "quizId": null
     }
 ]

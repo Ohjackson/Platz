@@ -26,6 +26,7 @@ enum QuizType: String, Codable {
     case fill = "fill"              // 빈칸 채우기
     case order = "order"            // 순서 맞추기
     case matching = "matching"      // 매칭
+    case ox = "ox"                  // O/X 퀴즈
     
     var displayName: String {
         switch self {
@@ -35,6 +36,7 @@ enum QuizType: String, Codable {
         case .fill: return "빈칸 채우기"
         case .order: return "순서 맞추기"
         case .matching: return "매칭"
+        case .ox: return "O/X 퀴즈"
         }
     }
 }
@@ -43,6 +45,10 @@ struct QuizQuestion: Codable, Identifiable {
     let id: String
     let question: String
     let questionType: QuizType?     // 문제별 타입 (nil이면 Quiz 전체 타입 따름)
+    
+    var type: QuizType {
+        questionType ?? .choice // Default fallback
+    }
     let options: [String]?          // MCQ 선택지
     let correctAnswer: String       // 정답
     let explanation: String         // 해설

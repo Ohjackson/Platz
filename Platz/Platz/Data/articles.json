@@ -190,7 +190,7 @@
             },
             {
                 "heading": "총리와 대통령",
-                "bodyMarkdown": "**총리(Bundeskanzler/in)**\n- 실질적 행정 수반\n- 정책 방향 결정권(Richtlinienkompetenz)\n- 각료 제청권\n- 현 총리: 올라프 숄츠(Olaf Scholz, SPD)\n\n**대통령(Bundespräsident/in)**\n- 국가 원수이나 **상징적** 역할\n- 법률 서명 및 공포\n- 외교 의례 담당\n- 연방회의(Bundesversammlung)에서 선출\n- 현 대통령: 프랑크-발터 슈타인마이어\n\n한국 대통령의 강력한 권한과 달리, 독일 대통령은 정치적 실권이 거의 없습니다."
+                "bodyMarkdown": "**총리(Bundeskanzler/in)**\n- 실질적 행정 수반\n- 정책 방향 결정권(Richtlinienkompetenz)\n- 각료 제청권\n\n**대통령(Bundespräsident/in)**\n- 국가 원수이나 **상징적** 역할\n- 법률 서명 및 공포\n- 외교 의례 담당\n- 연방회의(Bundesversammlung)에서 선출\n\n 독일의 대통령은 한국 대통령의 강력한 권한과 달리, 독일 대통령은 정치적 실권이 거의 없습니다."
             }
         ],
         "quickFacts": [
@@ -677,6 +677,170 @@
             "축구",
             "스포츠",
             "분데스리가"
+        ],
+        "updatedAt": "2024-12"
+    },
+    {
+        "id": "article_culture_04",
+        "category": "culture",
+        "title": "독일인의 사회적 가치관",
+        "summary": "시간 약속, 정직함, 환경 보호 의식 등 독일인의 생활 방식과 가치관을 알아봅니다.",
+        "readTime": 5,
+        "sections": [
+            {
+                "heading": "Pünktlichkeit (시간 엄수)",
+                "bodyMarkdown": "독일인은 **시간 약속**을 매우 중요하게 생각합니다.\n\n약속 시각에 '5분 전 도착'이 예의입니다. 5분이라도 늦으면 반드시 미리 연락해야 합니다. 이는 상대방의 시간을 존중한다는 의미입니다."
+            },
+            {
+                "heading": "Ordnung (질서와 규칙)",
+                "bodyMarkdown": "**'Ordnung muss sein(질서는 있어야 한다)'**이라는 유명한 속담이 있습니다.\n\n줄 서기, 교통 신호 지키기, 서류 정리 등 일상 생활에서 규칙과 절차를 따르는 것을 미덕으로 여깁니다."
+            },
+            {
+                "heading": "Ehrlichkeit (정직과 직설)",
+                "bodyMarkdown": "독일인은 빙 돌려 말하기보다 **직설적**으로 말하는 편입니다. 이는 무례함이 아니라 **정직함(Ehrlichkeit)**의 표현입니다.\n\n문제가 있으면 솔직하게 이야기하고 해결책을 찾는 것을 선호합니다."
+            },
+            {
+                "heading": "Umweltschutz (환경 보호)",
+                "bodyMarkdown": "철저한 **분리수거(Mülltrennung)**와 **판트(Pfand, 공병 보증금)** 제도로 유명합니다. 장바구니를 챙기는 것은 기본이며, 유기농 제품(Bio)을 선호하는 소비자가 많습니다."
+            }
+        ],
+        "quickFacts": [
+            {
+                "key": "시간 관념",
+                "value": "5분 전 도착"
+            },
+            {
+                "key": "속담",
+                "value": "Ordnung muss sein"
+            },
+            {
+                "key": "대화 스타일",
+                "value": "솔직하고 직설적"
+            },
+            {
+                "key": "환경 제도",
+                "value": "Pfand (보증금)"
+            }
+        ],
+        "relatedIds": [
+            "article_culture_05",
+            "article_culture_01"
+        ],
+        "tags": [
+            "문화",
+            "가치관",
+            "생활"
+        ],
+        "updatedAt": "2024-12"
+    },
+    {
+        "id": "article_culture_05",
+        "category": "culture",
+        "title": "독일어 소통 문화",
+        "summary": "Du와 Sie의 차이부터 이메일 예절까지, 독일식 의사소통 가이드.",
+        "readTime": 6,
+        "sections": [
+            {
+                "heading": "Du와 Sie (반말과 존댓말)",
+                "bodyMarkdown": "독일어에는 두 가지 2인칭 대명사가 있습니다.\n\n- **Sie (존칭)**: 처음 만난 사람, 공적인 관계, 윗사람\n- **Du (친칭)**: 가족, 친구, 어린이, 아주 가까운 사이\n\n먼저 **'Duzen wir?(말 놓을까?)'**라고 제안하고 동의를 얻은 후에 Sie에서 Du로 바꿉니다. 보통 연장자나 상사가 먼저 제안합니다."
+            },
+            {
+                "heading": "호칭 예절",
+                "bodyMarkdown": "공적인 자리에서는 성(Nachname) 앞에 **Herr(남성)** 또는 **Frau(여성)**를 붙여 부릅니다.\n\n예: Herr Müller, Frau Schmidt\n\n학위가 있다면 함께 부르는 것이 예의입니다. (예: Herr Doktor Müller)"
+            },
+            {
+                "heading": "인사 문화",
+                "bodyMarkdown": "친한 사이에는 볼을 맞대는 가벼운 포옹을 하기도 하지만, 비즈니스나 공적인 자리에서는 **악수(Händedruck)**가 기본입니다.\n\n악수할 때는 상대방의 눈을 바라보며(Außenkontakt) 적당한 힘으로 손을 잡아야 합니다."
+            }
+        ],
+        "quickFacts": [
+            {
+                "key": "존칭 대명사",
+                "value": "Sie"
+            },
+            {
+                "key": "친칭 대명사",
+                "value": "Du"
+            },
+            {
+                "key": "남성 호칭",
+                "value": "Herr + 성"
+            },
+            {
+                "key": "여성 호칭",
+                "value": "Frau + 성"
+            },
+            {
+                "key": "기본 인사",
+                "value": "악수 (Händedruck)"
+            }
+        ],
+        "relatedIds": [
+            "article_culture_04",
+            "lesson_conv_01"
+        ],
+        "tags": [
+            "문화",
+            "언어",
+            "예절"
+        ],
+        "updatedAt": "2024-12"
+    },
+    {
+        "id": "article_culture_06",
+        "category": "culture",
+        "title": "독일의 지역 문화",
+        "summary": "북부의 한자 동맹부터 남부의 바이에른까지, 다양한 지역색을 알아봅니다.",
+        "readTime": 5,
+        "sections": [
+            {
+                "heading": "연방주의와 다양성",
+                "bodyMarkdown": "독일은 통일 국가의 역사가 짧아 **지역색**이 매우 강합니다. 각 연방주는 고유의 전통, 음식, 방언을 가지고 있습니다."
+            },
+            {
+                "heading": "북부 독일 (Norddeutschland)",
+                "bodyMarkdown": "**함부르크, 브레멘, 뤼벡** 등 한자(Hanse) 동맹 도시들이 중심입니다.\n\n- **성향**: 차분하고 말수가 적음 (kuhl)\n- **인사**: 'Moin Moin!'\n- **음식**: 생선 요리, 감자\n- **특징**: 붉은 벽돌 건축, 개신교 비율 높음"
+            },
+            {
+                "heading": "남부 독일 (Süddeutschland)",
+                "bodyMarkdown": "**바이에른, 뮌헨**이 대표적입니다. 우리가 흔히 생각하는 '전통 독일' 이미지(가죽 바지, 맥주 축제)의 본고장입니다.\n\n- **성향**: 사교적이고 전통 중시\n- **인사**: 'Grüß Gott!', 'Servus!'\n- **음식**: 족발(Schweinshaxe), 소시지, 맥주\n- **특징**: 가톨릭 비율 높음, 풍요로운 경제"
+            },
+            {
+                "heading": "라인란트 (Rheinland)",
+                "bodyMarkdown": "**쾰른, 뒤셀도르프** 지역입니다.\n\n- **성향**: 매우 개방적이고 유머러스함\n- **축제**: 카니발(Karneval) 문화 발달\n- **특징**: '라인강의 기적'으로 불리는 산업 중심지"
+            }
+        ],
+        "quickFacts": [
+            {
+                "key": "북부 인사",
+                "value": "Moin!"
+            },
+            {
+                "key": "남부 인사",
+                "value": "Servus! / Grüß Gott!"
+            },
+            {
+                "key": "북부 특징",
+                "value": "항구, 한자 동맹"
+            },
+            {
+                "key": "남부 특징",
+                "value": "알프스, 옥토버페스트"
+            },
+            {
+                "key": "서부 특징",
+                "value": "카니발, 산업"
+            }
+        ],
+        "relatedIds": [
+            "article_culture_01",
+            "article_general_03"
+        ],
+        "tags": [
+            "문화",
+            "지역",
+            "사투리",
+            "여행"
         ],
         "updatedAt": "2024-12"
     }

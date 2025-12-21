@@ -44,7 +44,14 @@ struct TrackDetailView: View {
                     }
                     
                     // All Lessons
-                    LessonsListSection(lessons: lessons)
+                    if !lessons.isEmpty {
+                        LessonsListSection(lessons: lessons)
+                    }
+                    
+                    // Specific logic for Conversation Track: Show Dialogs list
+                    if track == .conversation {
+                        DialogsListSection(dialogs: dataManager.allDialogs)
+                    }
                     
                     // Spacer for tab bar
                     Spacer()
@@ -188,6 +195,33 @@ struct LessonsListSection: View {
                             lesson: lesson,
                             isCompleted: progressManager.isLessonCompleted(lesson.id)
                         )
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+    }
+}
+
+    
+
+// MARK: - Dialogs List Section
+struct DialogsListSection: View {
+    let dialogs: [Dialog]
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
+            Text("회화 목록")
+                .font(PlatzTypography.captionBold)
+                .foregroundColor(PlatzColors.textMuted)
+                .padding(.top, PlatzSpacing.md)
+            
+            VStack(spacing: PlatzSpacing.xs) {
+                ForEach(dialogs) { dialog in
+                    NavigationLink {
+                        DialogView(dialog: dialog)
+                    } label: {
+                        DialogListRow(dialog: dialog)
                     }
                     .buttonStyle(.plain)
                 }

@@ -449,6 +449,166 @@
         "miniQuizId": "quiz_gram_03"
     },
     {
+        "id": "lesson_gram_04",
+        "track": "grammar",
+        "title": "W-Fragen 질문",
+        "level": "beginner",
+        "durationMin": 10,
+        "order": 4,
+        "contentMarkdown": "## 4. W-Fragen 질문\n\n| 질문사 | 의미 |\n| --- | --- |\n| Wer | 누가 |\n| Was | 무엇 |\n| Wo | 어디 |\n| Woher | 어디서 |\n| Wie | 어떻게 |\n| Wie alt | 몇 살 |\n| Wann | 언제 |",
+        "examples": [
+            {
+                "de": "Woher kommst du?",
+                "ko": "너는 어디서 왔니?",
+                "pronunciation": "보헤어 콤스트 두",
+                "note": null
+            },
+            {
+                "de": "Wie heißt du?",
+                "ko": "너의 이름이 무엇이니?",
+                "pronunciation": "비 하이스트 두",
+                "note": null
+            },
+            {
+                "de": "Wer bist du?",
+                "ko": "너는 누구니?",
+                "pronunciation": "베어 비스트 두",
+                "note": null
+            },
+            {
+                "de": "Wie alt bist du?",
+                "ko": "너는 몇 살이니?",
+                "pronunciation": "비 알트 비스트 두",
+                "note": null
+            },
+            {
+                "de": "Wann kommst du heute?",
+                "ko": "너는 오늘 언제오니?",
+                "pronunciation": "반 콤스트 두 호이테",
+                "note": null
+            },
+            {
+                "de": "Was hast du gemacht?",
+                "ko": "너는 무엇을 했니?",
+                "pronunciation": "바스 하스트 두 게마흐트",
+                "note": "Ge_ 는 과거를 나타낼 때"
+            }
+        ],
+        "tips": [
+            "의문사가 있는 질문은 의문사가 맨 앞에 옵니다.",
+            "동사는 항상 두 번째 자리에 위치합니다."
+        ],
+        "miniQuizId": "quiz_gram_04"
+    },
+    {
+        "id": "lesson_gram_05",
+        "track": "grammar",
+        "title": "부정 표현 (nicht, kein)",
+        "level": "beginner",
+        "durationMin": 8,
+        "order": 5,
+        "contentMarkdown": "## 5. 부정 표현\n\n### nicht / kein\n\n- **nicht** → 동사, 형용사 부정\n- **kein** → 명사 부정",
+        "examples": [
+            {
+                "de": "Ich bin nicht müde.",
+                "ko": "나는 피곤하지 않다.",
+                "pronunciation": "이히 빈 니히트 뮈데",
+                "note": "Ich nicht müde (X) -> sein 동사 필요"
+            },
+            {
+                "de": "Ich habe kein Auto.",
+                "ko": "나는 차가 없다.",
+                "pronunciation": "이히 하베 카인 아우토",
+                "note": "명사(Auto) 부정은 kein"
+            }
+        ],
+        "tips": [
+            "명사를 부정할 때는 kein을 씁니다.",
+            "그 외(동사, 형용사)는 nicht를 씁니다."
+        ],
+        "miniQuizId": "quiz_gram_05"
+    },
+    {
+        "id": "lesson_gram_06",
+        "track": "grammar",
+        "title": "전치사 (A1.1 핵심)",
+        "level": "intermediate",
+        "durationMin": 15,
+        "order": 6,
+        "contentMarkdown": "## 6. 전치사 (A1.1 핵심)\n\n전치사는 뒤에 오는 명사의 **격(Case)**을 결정하므로 중요합니다.\n\n### 1. 장소 / 출처\n\n- **in** (~안에): 건물, 방, 국가(관사 있는)\n- **aus** (~에서): 출신, 재료\n- **nach** (~로): 도시, 국가(관사 없는) 이동\n- **bei** (~에서): 사람, 회사, 기관\n\n### 2. 출신과 이동 구분\n\n| 의미 | 전치사 |\n| :--- | :--- |\n| **~에서 (출신)** | **aus** (Ich komme **aus** Korea) |\n| **~로 (이동)** | **nach** (Ich fliege **nach** Deutschland) |\n| **~에 (장소)** | **in** (Ich bin **in** Seoul) |\n\n### 3. 동반과 수단 (mit)\n\n**mit** + Dativ (3격)\n- **사람**: ~와 함께 (mit meinem Freund)\n- **수단**: ~을 타고 (mit dem Bus)\n\n### 4. 시간 전치사\n\n- **am** (an dem): 요일, 날짜 (am Montag)\n- **um**: 시각 (um 9 Uhr)\n- **im** (in dem): 월, 계절 (im Mai)\n\n### 5. 핵심 전치사와 격\n\n꼭 외워야 할 격 지배 전치사입니다.\n\n**Dativ (3격) 전치사**\n- aus, mit, von, bei, zu, nach\n\n**Akkusativ (4격) 전치사**\n- für, ohne, durch, gegen",
+        "examples": [
+            {
+                "de": "Ich komme aus Korea.",
+                "ko": "나는 한국에서 왔어.",
+                "pronunciation": "이히 코메 아우스 코레아",
+                "note": "출신 (aus + Dativ)"
+            },
+            {
+                "de": "Ich fahre nach Berlin.",
+                "ko": "나는 베를린으로 가.",
+                "pronunciation": "이히 파레 나흐 베를린",
+                "note": "도시 이동 (nach)"
+            },
+            {
+                "de": "Ich bin in der Schule.",
+                "ko": "나는 학교에 있어.",
+                "pronunciation": "이히 빈 인 데어 슐레",
+                "note": "장소 (in + Dativ)"
+            },
+            {
+                "de": "Ich fahre mit dem Bus.",
+                "ko": "나는 버스를 타고 가.",
+                "pronunciation": "이히 파레 미트 뎀 부스",
+                "note": "수단 (mit + Dativ)"
+            },
+            {
+                "de": "Das ist für dich.",
+                "ko": "이건 너를 위한 거야.",
+                "pronunciation": "다스 이스트 퓌어 디히",
+                "note": "목적 (für + Akkusativ)"
+            }
+        ],
+        "tips": [
+            "nach는 도시/국가 이름 앞에만 씁니다 (nach Hause 예외)",
+            "aus, mit, bei는 무조건 3격(Dativ)입니다"
+        ],
+        "miniQuizId": "quiz_gram_06"
+    },
+    {
+        "id": "lesson_gram_07",
+        "track": "grammar",
+        "title": "소유격 (mein, dein)",
+        "level": "beginner",
+        "durationMin": 8,
+        "order": 7,
+        "contentMarkdown": "## 7. 소유격 (mein, dein)\n\n| 인칭 | 소유격 |\n| --- | --- |\n| 나의 | mein |\n| 너의 | dein |\n| 그의 | sein |\n| 그녀의 | ihr |",
+        "examples": [
+            {
+                "de": "Mein Name ist Min-su.",
+                "ko": "내 이름은 민수야.",
+                "pronunciation": "마인 나메 이스트 민수",
+                "note": null
+            },
+            {
+                "de": "Das ist meine Tasche.",
+                "ko": "이것은 내 가방이야.",
+                "pronunciation": "다스 이스트 마이네 타쉐",
+                "note": "Tasche가 여성명사라 meine"
+            },
+            {
+                "de": "Ihr Platz ist bei uns.",
+                "ko": "당신의 자리는 우리 옆이야.",
+                "pronunciation": "이어 플라츠 이스트 바이 운스",
+                "note": null
+            }
+        ],
+        "tips": [
+            "소유격도 뒤에 오는 명사의 성에 따라 어미가 변합니다.",
+            "여성명사 앞에서는 -e가 붙습니다 (meine, deine)."
+        ],
+        "miniQuizId": "quiz_gram_07"
+    },
+    {
         "id": "lesson_conv_01",
         "track": "conversation",
         "title": "첫 인사와 자기소개",

@@ -131,7 +131,40 @@ struct QuizQuestionContent: View {
                 .cornerRadius(PlatzRadius.medium)
             
             // Options
-            if let options = question.options {
+            if question.type == .ox, let options = question.options {
+                // OX Quiz Layout (Horizontal)
+                HStack(spacing: PlatzSpacing.md) {
+                    ForEach(options, id: \.self) { option in
+                         Button(action: {
+                             if !showFeedback { selectedAnswer = option }
+                         }) {
+                             VStack {
+                                 Text(option)
+                                     .font(.system(size: 40, weight: .bold))
+                                     .foregroundColor(selectedAnswer == option ? .white : PlatzColors.textPrimary)
+                             }
+                             .frame(maxWidth: .infinity, maxHeight: 120)
+                             .background(
+                                 // Logic for background color
+                                 showFeedback
+                                 ? (option == question.correctAnswer ? PlatzColors.success : (selectedAnswer == option && option != question.correctAnswer ? PlatzColors.error : PlatzColors.surface))
+                                 : (selectedAnswer == option ? PlatzColors.primary : PlatzColors.surface)
+                             )
+                             .cornerRadius(PlatzRadius.large)
+                             .overlay(
+                                 RoundedRectangle(cornerRadius: PlatzRadius.large)
+                                    .stroke(
+                                        showFeedback
+                                        ? (option == question.correctAnswer ? PlatzColors.success : (selectedAnswer == option ? PlatzColors.error : PlatzColors.border))
+                                        : (selectedAnswer == option ? PlatzColors.primary : PlatzColors.border),
+                                        lineWidth: 2
+                                    )
+                             )
+                         }
+                         .buttonStyle(.plain)
+                    }
+                }
+            } else if let options = question.options {
                 VStack(spacing: PlatzSpacing.sm) {
                     ForEach(options, id: \.self) { option in
                         OptionButton(
