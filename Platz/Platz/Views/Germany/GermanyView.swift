@@ -93,7 +93,7 @@ struct PopularArticlesSection: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
-            Text("인기 글")
+            Text("아티클")
                 .font(PlatzTypography.captionBold)
                 .foregroundColor(PlatzColors.textMuted)
             
@@ -320,6 +320,118 @@ struct BookmarksView: View {
                 }
             }
         }
+    }
+}
+
+// MARK: - Bookmarked Articles View (for NavigationLink)
+struct BookmarkedArticlesView: View {
+    @EnvironmentObject var dataManager: DataManager
+    @EnvironmentObject var progressManager: ProgressManager
+    
+    var bookmarkedArticles: [Article] {
+        progressManager.bookmarkedArticleIds.compactMap { id in
+            dataManager.article(byId: id)
+        }
+    }
+    
+    var recentArticles: [Article] {
+        progressManager.recentArticleIds.compactMap { id in
+            dataManager.article(byId: id)
+        }
+    }
+    
+    var body: some View {
+        ZStack {
+            PlatzColors.background
+                .ignoresSafeArea()
+            
+            ScrollView {
+                VStack(spacing: PlatzSpacing.lg) {
+                    // Bookmarked
+                    if !bookmarkedArticles.isEmpty {
+                        VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
+                            Text("북마크")
+                                .font(PlatzTypography.captionBold)
+                                .foregroundColor(PlatzColors.textMuted)
+                            
+                            VStack(spacing: 0) {
+                                ForEach(bookmarkedArticles) { article in
+                                    NavigationLink {
+                                        ArticleDetailView(article: article)
+                                    } label: {
+                                        ArticleRow(
+                                            article: article,
+                                            isBookmarked: true,
+                                            onBookmarkTap: {
+                                                progressManager.toggleArticleBookmark(article.id)
+                                            }
+                                        )
+                                    }
+                                    .buttonStyle(.plain)
+                                    
+                                    if article.id != bookmarkedArticles.last?.id {
+                                        Divider()
+                                            .background(PlatzColors.border)
+                                    }
+                                }
+                            }
+                            .background(PlatzColors.surface)
+                            .cornerRadius(PlatzRadius.large)
+                        }
+                    }
+                    
+                    // Recent
+                    if !recentArticles.isEmpty {
+                        VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
+                            Text("최근 본 글")
+                                .font(PlatzTypography.captionBold)
+                                .foregroundColor(PlatzColors.textMuted)
+                            
+                            VStack(spacing: 0) {
+                                ForEach(recentArticles) { article in
+                                    NavigationLink {
+                                        ArticleDetailView(article: article)
+                                    } label: {
+                                        ArticleRow(
+                                            article: article,
+                                            isBookmarked: progressManager.isArticleBookmarked(article.id),
+                                            onBookmarkTap: {
+                                                progressManager.toggleArticleBookmark(article.id)
+                                            }
+                                        )
+                                    }
+                                    .buttonStyle(.plain)
+                                    
+                                    if article.id != recentArticles.last?.id {
+                                        Divider()
+                                            .background(PlatzColors.border)
+                                    }
+                                }
+                            }
+                            .background(PlatzColors.surface)
+                            .cornerRadius(PlatzRadius.large)
+                        }
+                    }
+                    
+                    if bookmarkedArticles.isEmpty && recentArticles.isEmpty {
+                        VStack(spacing: PlatzSpacing.md) {
+                            Image(systemName: "bookmark")
+                                .font(.largeTitle)
+                                .foregroundColor(PlatzColors.textMuted)
+                            
+                            Text("아직 저장한 글이 없어요")
+                                .font(PlatzTypography.body)
+                                .foregroundColor(PlatzColors.textSecondary)
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(PlatzSpacing.xxl)
+                    }
+                }
+                .padding(PlatzSpacing.md)
+            }
+        }
+        .navigationTitle("저장한 글")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

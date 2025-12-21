@@ -93,16 +93,36 @@ struct OnboardingPage1: View {
                     .font(PlatzTypography.largeTitle)
                     .foregroundColor(PlatzColors.primary)
                 
-                Text("platz입니다")
+                Text("platz에 오신 것을 환영합니다")
                     .font(PlatzTypography.title2)
                     .foregroundColor(PlatzColors.textPrimary)
             }
             
-            // Description
-            Text("독일을 읽고,\n가볍게 독일어를 시작해요.")
-                .font(PlatzTypography.bodyLarge)
-                .foregroundColor(PlatzColors.textSecondary)
-                .multilineTextAlignment(.center)
+            // Featured Content
+            VStack(spacing: PlatzSpacing.lg) {
+                VStack(spacing: PlatzSpacing.xs) {
+                    Text("Grundlegende deutsche\nkonversation")
+                        .font(PlatzTypography.title3)
+                        .italic()
+                        .foregroundColor(PlatzColors.primary)
+                    
+                    Text("기초 독일어 회화")
+                        .font(PlatzTypography.body)
+                        .foregroundColor(PlatzColors.textSecondary)
+                }
+                
+                VStack(spacing: PlatzSpacing.xs) {
+                    Text("Deutsche Grammatik")
+                        .font(PlatzTypography.title3)
+                        .italic()
+                        .foregroundColor(PlatzColors.primary)
+                    
+                    Text("독일어 문법")
+                        .font(PlatzTypography.body)
+                        .foregroundColor(PlatzColors.textSecondary)
+                }
+            }
+            .multilineTextAlignment(.center)
             
             Spacer()
             Spacer()
@@ -236,21 +256,6 @@ struct OnboardingPage3: View {
             .background(PlatzColors.surfaceRaised)
             .cornerRadius(PlatzRadius.medium)
             
-            // Notification Toggle (Optional)
-            // Toggle(isOn: $notificationEnabled) {
-            //     HStack {
-            //         Image(systemName: "bell.fill")
-            //             .foregroundColor(PlatzColors.primary)
-            //         Text("명언 알림 받기")
-            //             .font(PlatzTypography.body)
-            //             .foregroundColor(PlatzColors.textPrimary)
-            //     }
-            // }
-            // .toggleStyle(SwitchToggleStyle(tint: PlatzColors.primary))
-            // .padding(PlatzSpacing.md)
-            // .background(PlatzColors.surface)
-            // .cornerRadius(PlatzRadius.medium)
-            
             Spacer()
             
             // Start Button
@@ -260,6 +265,10 @@ struct OnboardingPage3: View {
             .buttonStyle(PlatzPrimaryButtonStyle(isFullWidth: true))
             
             Spacer()
+            
+            Text("Planer von Daniel Cho")
+                .font(PlatzTypography.caption)
+                .foregroundColor(PlatzColors.textMuted)
         }
         .padding(PlatzSpacing.lg)
     }

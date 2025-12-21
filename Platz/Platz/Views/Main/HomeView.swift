@@ -241,61 +241,45 @@ struct TodayGermanyCard: View {
 
 // MARK: - Quick Start Section
 struct QuickStartSection: View {
+    @EnvironmentObject var progressManager: ProgressManager
+    
     var body: some View {
         VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
-            Text("빠른 시작")
+            Text("저장된 아티클")
                 .font(PlatzTypography.captionBold)
                 .foregroundColor(PlatzColors.textMuted)
             
-            HStack(spacing: PlatzSpacing.sm) {
-                NavigationLink {
-                    GermanyView()
-                } label: {
-                    QuickStartButton(
-                        icon: "globe.europe.africa.fill",
-                        title: "독일 읽기",
-                        color: PlatzColors.primary
-                    )
+            NavigationLink {
+                BookmarkedArticlesView()
+            } label: {
+                HStack(spacing: PlatzSpacing.sm) {
+                    Image(systemName: "bookmark.fill")
+                        .foregroundColor(PlatzColors.primary)
+                    
+                    Text("북마크 보기")
+                        .font(PlatzTypography.bodyBold)
+                        .foregroundColor(PlatzColors.textPrimary)
+                    
+                    Spacer()
+                    
+                    Text("\(progressManager.bookmarkedArticleIds.count)")
+                        .font(PlatzTypography.caption)
+                        .foregroundColor(PlatzColors.textMuted)
+                    
+                    Image(systemName: "chevron.right")
+                        .font(.caption)
+                        .foregroundColor(PlatzColors.textMuted)
                 }
-                .buttonStyle(.plain)
-                
-                NavigationLink {
-                    LearnView(navigationId: .constant(UUID()))
-                } label: {
-                    QuickStartButton(
-                        icon: "book.fill",
-                        title: "학습 시작",
-                        color: PlatzColors.link
-                    )
-                }
-                .buttonStyle(.plain)
+                .padding(PlatzSpacing.md)
+                .background(PlatzColors.surface)
+                .cornerRadius(PlatzRadius.large)
+                .overlay(
+                    RoundedRectangle(cornerRadius: PlatzRadius.large)
+                        .stroke(PlatzColors.border, lineWidth: 1)
+                )
             }
+            .buttonStyle(.plain)
         }
-    }
-}
-
-struct QuickStartButton: View {
-    let icon: String
-    let title: String
-    let color: Color
-    
-    var body: some View {
-        HStack(spacing: PlatzSpacing.xs) {
-            Image(systemName: icon)
-                .foregroundColor(color)
-            
-            Text(title)
-                .font(PlatzTypography.bodyBold)
-                .foregroundColor(PlatzColors.textPrimary)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(PlatzSpacing.md)
-        .background(PlatzColors.surface)
-        .cornerRadius(PlatzRadius.large)
-        .overlay(
-            RoundedRectangle(cornerRadius: PlatzRadius.large)
-                .stroke(PlatzColors.border, lineWidth: 1)
-        )
     }
 }
 

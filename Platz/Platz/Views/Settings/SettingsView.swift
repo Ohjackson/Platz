@@ -31,7 +31,7 @@ struct SettingsView: View {
                         HStack {
                             Label("연속 학습일", systemImage: "flame.fill")
                             Spacer()
-                            Text("\(progressManager.streak)일")
+                            Text("\(progressManager.streak)")
                                 .foregroundColor(PlatzColors.textMuted)
                         }
                         
@@ -124,13 +124,16 @@ struct AboutView: View {
                     VStack(spacing: PlatzSpacing.xl) {
                         // Logo
                         VStack(spacing: PlatzSpacing.sm) {
-                            ZStack {
-                                Circle()
-                                    .fill(PlatzColors.primary.opacity(0.2))
-                                    .frame(width: 80, height: 80)
-                                Text("🇩🇪")
-                                    .font(.system(size: 40))
-                            }
+                               ZStack {
+                Circle()
+                    .fill(PlatzColors.primary.opacity(0.2))
+                    .frame(width: 120, height: 120)
+
+                Image("bedge")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 120, height: 120)
+            }
                             
                             Text("platz")
                                 .font(PlatzTypography.title1)
@@ -185,6 +188,18 @@ struct AboutView: View {
                         .padding(PlatzSpacing.md)
                         .background(PlatzColors.surface)
                         .cornerRadius(PlatzRadius.large)
+                        
+                        // Creator
+                        VStack(spacing: PlatzSpacing.sm) {
+                            Text("Planer von Daniel Cho")
+                                .font(PlatzTypography.title2)
+                                .foregroundColor(PlatzColors.primary)
+                            
+                            Text("Entwickler Micheal Ahn")
+                                .font(PlatzTypography.title3)
+                                .foregroundColor(PlatzColors.textPrimary)
+                        }
+                        .padding(.top, PlatzSpacing.xl)
                         
                         Spacer().frame(height: PlatzSpacing.xl)
                     }
