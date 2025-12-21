@@ -49,7 +49,7 @@ struct ProgressSummaryCard: View {
     @EnvironmentObject var dataManager: DataManager
     
     var totalLessons: Int {
-        dataManager.lessons.count
+        dataManager.lessons.count + dataManager.allDialogs.count
     }
     
     var completedLessons: Int {
@@ -166,7 +166,7 @@ struct ConversationsSection: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: PlatzSpacing.sm) {
-                    ForEach(dataManager.allDialogs.prefix(5)) { dialog in
+                    ForEach(dataManager.allDialogs.prefix(10)) { dialog in
                         NavigationLink {
                             DialogView(dialog: dialog)
                         } label: {
@@ -190,17 +190,21 @@ struct DialogPreviewCard: View {
             Image(systemName: DialogTopic(rawValue: dialog.topic)?.icon ?? "bubble.left.fill")
                 .font(.title2)
                 .foregroundColor(PlatzColors.primary)
+                .padding(.bottom, 4)
             
             Text(dialog.title)
                 .font(PlatzTypography.bodyBold)
                 .foregroundColor(PlatzColors.textPrimary)
                 .lineLimit(2)
+                .multilineTextAlignment(.leading)
+            
+            Spacer()
             
             Text("\(dialog.lines.count)문장")
                 .font(PlatzTypography.caption)
                 .foregroundColor(PlatzColors.textMuted)
         }
-        .frame(width: 140, alignment: .leading)
+        .frame(width: 140, height: 110, alignment: .leading)
         .padding(PlatzSpacing.md)
         .background(PlatzColors.surface)
         .cornerRadius(PlatzRadius.large)
@@ -232,6 +236,9 @@ struct AllDialogsView: View {
                     }
                 }
                 .padding(PlatzSpacing.md)
+                
+                Spacer()
+                    .frame(height: 100)
             }
         }
         .navigationTitle("회화 연습")

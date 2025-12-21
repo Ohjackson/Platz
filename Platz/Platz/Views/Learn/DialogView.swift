@@ -10,6 +10,8 @@ import SwiftUI
 struct DialogView: View {
     let dialog: Dialog
     @EnvironmentObject var dataManager: DataManager
+    @EnvironmentObject var progressManager: ProgressManager
+    @Environment(\.presentationMode) var presentationMode
     @State private var showTranslation = true
     @State private var showQuiz = false
     
@@ -80,22 +82,27 @@ struct DialogView: View {
                         .cornerRadius(PlatzRadius.large)
                     }
                     
+                    // Complete Button
+                    Button {
+                        progressManager.completeLesson(dialog.id, duration: 5)
+                        presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        Text("완료하기")
+                            .font(PlatzTypography.button)
+                            .foregroundColor(PlatzColors.onPrimary)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, PlatzSpacing.md)
+                            .background(PlatzColors.primary)
+                            .cornerRadius(PlatzRadius.large)
+                    }
+                    .padding(.top, PlatzSpacing.md)
+                    
                     Spacer().frame(height: 100)
                 }
                 .padding(PlatzSpacing.md)
             }
             
-            if quiz != nil {
-                VStack {
-                    Spacer()
-                    Button { showQuiz = true } label: {
-                        HStack { Image(systemName: "questionmark.circle.fill"); Text("이 대화로 퀴즈") }
-                    }
-                    .buttonStyle(PlatzPrimaryButtonStyle(isFullWidth: true))
-                    .padding(PlatzSpacing.md)
-                    .background(PlatzColors.background.shadow(color: .black.opacity(0.2), radius: 10, y: -5))
-                }
-            }
+            // Removed existing bottom footer code since we moved the button inside content
         }
         .navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $showQuiz) { if let q = quiz { QuizView(quiz: q) } }
