@@ -6,7 +6,7 @@
         "level": "beginner",
         "durationMin": 5,
         "order": 1,
-        "contentMarkdown": "독일어 알파벳은 영어와 거의 같지만, **4개의 특수문자**가 추가됩니다:\n\n- **Ä, ä** (A-움라우트)\n- **Ö, ö** (O-움라우트)\n- **Ü, ü** (U-움라우트)\n- **ß** (에스체트, 날카로운 S)",
+        "contentMarkdown": "독일어 알파벳은 영어와 거의 같지만, 4개의 특수문자가 추가됩니다:\n\n- Ä, ä (A-움라우트)\n- Ö, ö (O-움라우트)\n- Ü, ü (U-움라우트)\n- ß (에스체트, 날카로운 S)",
         "examples": [
             {
                 "de": "Ä",
@@ -232,7 +232,7 @@
         "level": "beginner",
         "durationMin": 10,
         "order": 2,
-        "contentMarkdown": "독일어 숫자의 특이한 점: **21부터 99까지는 일의 자리를 먼저 읽습니다!**\n\n예: 21 = einundzwanzig (1 + und + 20)",
+        "contentMarkdown": "독일어 숫자의 특이한 점: 21부터 99까지는 일의 자리를 먼저 읽습니다!\n\n예: 21 = einundzwanzig (1 + und + 20)",
         "examples": [
             {
                 "de": "einundzwanzig",
@@ -272,7 +272,7 @@
         "level": "intermediate",
         "durationMin": 8,
         "order": 3,
-        "contentMarkdown": "100 이상의 숫자는 앞에서부터 읽습니다.\n\n**100** = hundert\n**1,000** = tausend\n**1,000,000** = eine Million",
+        "contentMarkdown": "100 이상의 숫자는 앞에서부터 읽습니다.\n\n100 = hundert\n1,000 = tausend\n1,000,000 = eine Million",
         "examples": [
             {
                 "de": "hundert",
@@ -311,7 +311,7 @@
         "level": "beginner",
         "durationMin": 10,
         "order": 1,
-        "contentMarkdown": "독일어의 인칭대명사와 가장 중요한 동사 **sein**(~이다)을 배웁니다.\n\nsein은 영어의 be 동사처럼 매우 불규칙합니다.",
+        "contentMarkdown": "독일어의 인칭대명사와 가장 중요한 동사 sein(~이다)을 배웁니다.\n\nsein은 영어의 be 동사처럼 매우 불규칙합니다.",
         "examples": [
             {
                 "de": "ich bin",
@@ -357,7 +357,7 @@
         "level": "beginner",
         "durationMin": 8,
         "order": 2,
-        "contentMarkdown": "독일어 명사에는 **세 가지 성(gender)**이 있습니다:\n\n- **der** (남성)\n- **die** (여성)\n- **das** (중성)\n\n단어를 외울 때 관사와 함께 외우세요!",
+        "contentMarkdown": "독일어 명사에는 세 가지 성(gender)이 있습니다:\n\n- der (남성)\n- die (여성)\n- das (중성)\n\n단어를 외울 때 관사와 함께 외우세요!",
         "examples": [
             {
                 "de": "der Mann",
@@ -409,7 +409,7 @@
         "level": "beginner",
         "durationMin": 8,
         "order": 3,
-        "contentMarkdown": "**haben**(가지다)은 sein과 함께 가장 중요한 동사입니다.\n\n소유, 나이, 배고픔 등을 표현할 때 사용합니다.",
+        "contentMarkdown": "haben(가지다)은 sein과 함께 가장 중요한 동사입니다.\n\n소유, 나이, 배고픔 등을 표현할 때 사용합니다.",
         "examples": [
             {
                 "de": "ich habe",
@@ -507,7 +507,7 @@
         "level": "beginner",
         "durationMin": 8,
         "order": 5,
-        "contentMarkdown": "## 5. 부정 표현\n\n### nicht / kein\n\n- **nicht** → 동사, 형용사 부정\n- **kein** → 명사 부정",
+        "contentMarkdown": "## 5. 부정 표현\n\n### nicht / kein\n\n- nicht → 동사, 형용사 부정\n- kein → 명사 부정",
         "examples": [
             {
                 "de": "Ich bin nicht müde.",
@@ -535,7 +535,7 @@
         "level": "intermediate",
         "durationMin": 15,
         "order": 6,
-        "contentMarkdown": "## 6. 전치사 (A1.1 핵심)\n\n전치사는 뒤에 오는 명사의 **격(Case)**을 결정하므로 중요합니다.\n\n### 1. 장소 / 출처\n\n- **in** (~안에): 건물, 방, 국가(관사 있는)\n- **aus** (~에서): 출신, 재료\n- **nach** (~로): 도시, 국가(관사 없는) 이동\n- **bei** (~에서): 사람, 회사, 기관\n\n### 2. 출신과 이동 구분\n\n| 의미 | 전치사 |\n| :--- | :--- |\n| **~에서 (출신)** | **aus** (Ich komme **aus** Korea) |\n| **~로 (이동)** | **nach** (Ich fliege **nach** Deutschland) |\n| **~에 (장소)** | **in** (Ich bin **in** Seoul) |\n\n### 3. 동반과 수단 (mit)\n\n**mit** + Dativ (3격)\n- **사람**: ~와 함께 (mit meinem Freund)\n- **수단**: ~을 타고 (mit dem Bus)\n\n### 4. 시간 전치사\n\n- **am** (an dem): 요일, 날짜 (am Montag)\n- **um**: 시각 (um 9 Uhr)\n- **im** (in dem): 월, 계절 (im Mai)\n\n### 5. 핵심 전치사와 격\n\n꼭 외워야 할 격 지배 전치사입니다.\n\n**Dativ (3격) 전치사**\n- aus, mit, von, bei, zu, nach\n\n**Akkusativ (4격) 전치사**\n- für, ohne, durch, gegen",
+        "contentMarkdown": "## 6. 전치사 (A1.1 핵심)\n\n전치사는 뒤에 오는 명사의 격(Case)을 결정하므로 중요합니다.\n\n### 1. 장소 / 출처\n\n- in (~안에): 건물, 방, 국가(관사 있는)\n- aus (~에서): 출신, 재료\n- nach (~로): 도시, 국가(관사 없는) 이동\n- bei (~에서): 사람, 회사, 기관\n\n### 2. 출신과 이동 구분\n\n| 의미 | 전치사 |\n| :--- | :--- |\n| ~에서 (출신) | aus (Ich komme aus Korea) |\n| ~로 (이동) | nach (Ich fliege nach Deutschland) |\n| ~에 (장소) | in (Ich bin in Seoul) |\n\n### 3. 동반과 수단 (mit)\n\nmit + Dativ (3격)\n- 사람: ~와 함께 (mit meinem Freund)\n- 수단: ~을 타고 (mit dem Bus)\n\n### 4. 시간 전치사\n\n- am (an dem): 요일, 날짜 (am Montag)\n- um: 시각 (um 9 Uhr)\n- im (in dem): 월, 계절 (im Mai)\n\n### 5. 핵심 전치사와 격\n\n꼭 외워야 할 격 지배 전치사입니다.\n\nDativ (3격) 전치사\n- aus, mit, von, bei, zu, nach\n\nAkkusativ (4격) 전치사\n- für, ohne, durch, gegen",
         "examples": [
             {
                 "de": "Ich komme aus Korea.",
@@ -615,7 +615,7 @@
         "level": "beginner",
         "durationMin": 6,
         "order": 1,
-        "contentMarkdown": "첫 만남에서 쓸 수 있는 기본 인사와 자기소개 표현을 배웁니다.\n\n**Hallo!** 안녕!\n**Guten Tag!** 좋은 하루! (공식)",
+        "contentMarkdown": "첫 만남에서 쓸 수 있는 기본 인사와 자기소개 표현을 배웁니다.\n\nHallo! 안녕!\nGuten Tag! 좋은 하루! (공식)",
         "examples": [
             {
                 "de": "Hallo!",
@@ -660,7 +660,7 @@
         "level": "beginner",
         "durationMin": 5,
         "order": 2,
-        "contentMarkdown": "상대방의 안부를 묻고 대답하는 표현입니다.\n\n**Wie geht's?** 어떻게 지내?",
+        "contentMarkdown": "상대방의 안부를 묻고 대답하는 표현입니다.\n\nWie geht's? 어떻게 지내?",
         "examples": [
             {
                 "de": "Wie geht's?",
