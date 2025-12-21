@@ -78,13 +78,18 @@ struct CustomTabBar: View {
             }
         }
         .padding(.horizontal, PlatzSpacing.lg)
-        .padding(.top, 12)
-        .padding(.bottom, 8) 
+        .padding(.vertical, 12)
         .background(
-            Rectangle()
+            Capsule()
                 .fill(.ultraThinMaterial)
-                .ignoresSafeArea()
+                .shadow(color: .black.opacity(0.1), radius: 10, x: 0, y: 5)
         )
+        .overlay(
+            Capsule()
+                .stroke(.white.opacity(0.2), lineWidth: 1)
+        )
+        .padding(.horizontal, 20)
+        .padding(.bottom, 0) // Floating slightly above home indicator if needed, or stick to bottom safe area naturally with padding
     }
 }
 
