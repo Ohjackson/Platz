@@ -267,7 +267,7 @@ struct OnboardingPage3: View {
             Spacer()
             
             Text("Produced by Seunghwan Cho")
-                .font(PlatzTypography.subtitle)
+                .font(PlatzTypography.bodyLarge)
                 .foregroundColor(PlatzColors.textMuted)
         }
         .padding(PlatzSpacing.lg)
