@@ -14,6 +14,28 @@ struct HomeView: View {
     @State private var showQuoteExplanation = false
     @State private var selectedTab = 1 // For navigation to Germany tab
     
+    @State private var recommendedArticle: Article?
+    
+    private func updateRecommendation() {
+        let allArticles = dataManager.articles
+        guard !allArticles.isEmpty else {
+            recommendedArticle = nil
+            return
+        }
+        
+        // 1. Filter unread articles
+        let unreadArticles = allArticles.filter { !progressManager.readArticleIds.contains($0.id) }
+        
+        // 2. If there are unread articles, return one (random or first)
+        if let unread = unreadArticles.randomElement() {
+            recommendedArticle = unread
+            return
+        }
+        
+        // 3. If all read, return a random article
+        recommendedArticle = allArticles.randomElement()
+    }
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -44,7 +66,7 @@ struct HomeView: View {
                         }
                         
                         // Today's Germany
-                        if let article = dataManager.recommendedArticle {
+                        if let article = recommendedArticle {
                             TodayGermanyCard(article: article)
                         }
                         
@@ -78,6 +100,9 @@ struct HomeView: View {
             }
             .sheet(isPresented: $showSettings) {
                 SettingsView()
+            }
+            .onAppear {
+                updateRecommendation()
             }
         }
     }

@@ -22,6 +22,7 @@ class ProgressManager: ObservableObject {
         static let bookmarkedArticles = "bookmarkedArticleIds"
         static let bookmarkedLessons = "bookmarkedLessonIds"
         static let recentArticles = "recentArticleIds"
+        static let readArticles = "readArticleIds"
         static let hasCompletedOnboarding = "hasCompletedOnboarding"
         static let lastLessonId = "lastLessonId"
         static let totalStudyMinutes = "totalStudyMinutes"
@@ -60,6 +61,10 @@ class ProgressManager: ObservableObject {
         didSet { save(recentArticleIds, forKey: Keys.recentArticles) }
     }
     
+    @Published var readArticleIds: Set<String> {
+        didSet { save(Array(readArticleIds), forKey: Keys.readArticles) }
+    }
+    
     @Published var hasCompletedOnboarding: Bool {
         didSet { defaults.set(hasCompletedOnboarding, forKey: Keys.hasCompletedOnboarding) }
     }
@@ -87,6 +92,7 @@ class ProgressManager: ObservableObject {
         self.bookmarkedArticleIds = Set(defaults.stringArray(forKey: Keys.bookmarkedArticles) ?? [])
         self.bookmarkedLessonIds = Set(defaults.stringArray(forKey: Keys.bookmarkedLessons) ?? [])
         self.recentArticleIds = defaults.stringArray(forKey: Keys.recentArticles) ?? []
+        self.readArticleIds = Set(defaults.stringArray(forKey: Keys.readArticles) ?? [])
         self.hasCompletedOnboarding = defaults.bool(forKey: Keys.hasCompletedOnboarding)
         self.lastLessonId = defaults.string(forKey: Keys.lastLessonId)
         self.totalStudyMinutes = defaults.integer(forKey: Keys.totalStudyMinutes)
@@ -195,7 +201,15 @@ class ProgressManager: ObservableObject {
         bookmarkedArticleIds = []
         bookmarkedLessonIds = []
         recentArticleIds = []
+        readArticleIds = [] // Also reset read status
         hasCompletedOnboarding = false
+    }
+    
+    // MARK: - Read Articles
+    func markArticleAsRead(_ articleId: String) {
+        if !readArticleIds.contains(articleId) {
+            readArticleIds.insert(articleId)
+        }
     }
     
     // MARK: - Helpers
