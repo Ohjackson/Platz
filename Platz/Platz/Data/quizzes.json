@@ -402,7 +402,7 @@
         "title": "회화 퀴즈: 인사",
         "type": "dialog",
         "sourceLessonId": null,
-        "sourceDialogId": "dialog_greeting",
+        "sourceDialogId": "dialog_greeting_01",
         "passingScore": 60,
         "questions": [
             {
@@ -947,6 +947,268 @@
                 ],
                 "correctAnswer": "sein",
                 "explanation": "그의 = sein"
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_01",
+        "title": "A2 문법 퀴즈: Perfekt",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_01",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "Perfekt의 기본 구조는?",
+                "options": [
+                    "동사 + 명사",
+                    "haben/sein + Partizip II",
+                    "조동사 + 부정사",
+                    "전치사 + 관사"
+                ],
+                "correctAnswer": "haben/sein + Partizip II",
+                "explanation": "Perfekt는 haben 또는 sein과 Partizip II를 함께 씁니다."
+            },
+            {
+                "id": "q2",
+                "type": "fill",
+                "question": "빈칸에 알맞은 말을 고르세요: Ich ___ gestern Deutsch gelernt.",
+                "options": [
+                    "bin",
+                    "habe",
+                    "ist",
+                    "haben"
+                ],
+                "correctAnswer": "habe",
+                "explanation": "lernen의 Perfekt는 haben을 사용합니다: Ich habe gelernt."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "맞는 문장을 고르세요.",
+                "options": [
+                    "Wir sind nach Hause gegangen.",
+                    "Wir haben nach Hause gegangen."
+                ],
+                "correctAnswer": "Wir sind nach Hause gegangen.",
+                "explanation": "gehen은 이동 동사이므로 Perfekt에서 sein을 씁니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_02",
+        "title": "A2 문법 퀴즈: 조동사",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_02",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "'해야 한다'에 가까운 조동사는?",
+                "options": [
+                    "können",
+                    "müssen",
+                    "wollen",
+                    "dürfen"
+                ],
+                "correctAnswer": "müssen",
+                "explanation": "müssen은 의무나 필요를 나타냅니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "조동사가 있는 문장에서 핵심 동사는 보통 어디에 오나요?",
+                "options": [
+                    "문장 맨 앞",
+                    "조동사 바로 뒤",
+                    "문장 끝",
+                    "항상 생략"
+                ],
+                "correctAnswer": "문장 끝",
+                "explanation": "Ich muss heute arbeiten처럼 핵심 동사 원형은 문장 끝에 옵니다."
+            },
+            {
+                "id": "q3",
+                "type": "fill",
+                "question": "빈칸에 알맞은 조동사는? ___ du mir helfen?",
+                "options": [
+                    "Kannst",
+                    "Muss",
+                    "Will",
+                    "Darfst"
+                ],
+                "correctAnswer": "Kannst",
+                "explanation": "도움을 요청할 때 Kannst du mir helfen? 이 자연스럽습니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_03",
+        "title": "A2 문법 퀴즈: weil, dass",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_03",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "weil의 뜻은?",
+                "options": [
+                    "하지만",
+                    "왜냐하면",
+                    "~라는 것",
+                    "그리고"
+                ],
+                "correctAnswer": "왜냐하면",
+                "explanation": "weil은 이유를 말할 때 쓰는 접속사입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "weil/dass 부문장에서 동사는 보통 어디에 오나요?",
+                "options": [
+                    "문장 끝",
+                    "주어 앞",
+                    "항상 두 번째 자리",
+                    "명사 뒤"
+                ],
+                "correctAnswer": "문장 끝",
+                "explanation": "weil ich krank bin처럼 동사가 부문장 끝으로 갑니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "맞는 문장을 고르세요.",
+                "options": [
+                    "Ich bleibe zu Hause, weil ich krank bin.",
+                    "Ich bleibe zu Hause, weil ich bin krank."
+                ],
+                "correctAnswer": "Ich bleibe zu Hause, weil ich krank bin.",
+                "explanation": "weil 뒤에서는 bin이 문장 끝에 와야 합니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_04",
+        "title": "A2 문법 퀴즈: 분리동사",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_04",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "aufstehen의 뜻은?",
+                "options": [
+                    "전화하다",
+                    "일어나다",
+                    "장보다",
+                    "같이 오다"
+                ],
+                "correctAnswer": "일어나다",
+                "explanation": "aufstehen은 일어나다라는 뜻의 분리동사입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "맞는 문장을 고르세요.",
+                "options": [
+                    "Ich aufstehe um sieben Uhr.",
+                    "Ich stehe um sieben Uhr auf."
+                ],
+                "correctAnswer": "Ich stehe um sieben Uhr auf.",
+                "explanation": "평서문에서는 분리되는 앞부분 auf가 문장 끝으로 갑니다."
+            },
+            {
+                "id": "q3",
+                "type": "fill",
+                "question": "빈칸에 알맞은 말을 고르세요: Rufst du mich später ___?",
+                "options": [
+                    "an",
+                    "auf",
+                    "ein",
+                    "mit"
+                ],
+                "correctAnswer": "an",
+                "explanation": "anrufen은 전화하다라는 뜻이며, 현재형 문장에서는 an이 끝으로 갑니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_conv_01",
+        "title": "A2 회화 퀴즈: 약속 변경",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_conv_01",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "정중하게 안 된다고 말할 때 자연스러운 표현은?",
+                "options": [
+                    "Leider kann ich morgen nicht.",
+                    "Ich bin morgen.",
+                    "Du musst morgen nicht.",
+                    "Morgen ist nicht."
+                ],
+                "correctAnswer": "Leider kann ich morgen nicht.",
+                "explanation": "Leider를 사용하면 거절을 부드럽게 표현할 수 있습니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "Passt dir Freitag um sechs? 의 뜻은?",
+                "options": [
+                    "금요일 6시는 너에게 괜찮아?",
+                    "금요일 6시에 어디 가?",
+                    "금요일 6시에 끝나?",
+                    "금요일 6시에 일해?"
+                ],
+                "correctAnswer": "금요일 6시는 너에게 괜찮아?",
+                "explanation": "passen은 일정이 맞는지 물을 때 자주 씁니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_conv_02",
+        "title": "A2 회화 퀴즈: 도움 요청",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_conv_02",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "공식 상황에서 정중한 요청으로 가장 자연스러운 표현은?",
+                "options": [
+                    "Könnten Sie mir bitte helfen?",
+                    "Hilfst du mir?",
+                    "Du hilfst mir.",
+                    "Ich helfe dir."
+                ],
+                "correctAnswer": "Könnten Sie mir bitte helfen?",
+                "explanation": "Könnten Sie...? 는 공식 상황에서 쓰기 좋은 정중한 요청입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "Seit gestern의 뜻은?",
+                "options": [
+                    "내일까지",
+                    "어제부터",
+                    "어제 전에",
+                    "매일"
+                ],
+                "correctAnswer": "어제부터",
+                "explanation": "seit는 어떤 시점부터 지금까지 이어지는 상황을 말할 때 씁니다."
             }
         ]
     }

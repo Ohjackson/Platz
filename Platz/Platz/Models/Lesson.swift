@@ -26,7 +26,7 @@ enum LessonTrack: String, Codable, CaseIterable {
     case grammar = "grammar"
     case conversation = "conversation"
     case quiz = "quiz"
-    
+
     var displayName: String {
         switch self {
         case .alphabet: return "알파벳"
@@ -36,7 +36,7 @@ enum LessonTrack: String, Codable, CaseIterable {
         case .quiz: return "퀴즈"
         }
     }
-    
+
     var icon: String {
         switch self {
         case .alphabet: return "textformat.abc"
@@ -46,7 +46,7 @@ enum LessonTrack: String, Codable, CaseIterable {
         case .quiz: return "questionmark.circle.fill"
         }
     }
-    
+
     var description: String {
         switch self {
         case .alphabet: return "독일어 발음과 철자 익히기"
@@ -56,7 +56,7 @@ enum LessonTrack: String, Codable, CaseIterable {
         case .quiz: return "배운 내용 테스트"
         }
     }
-    
+
     var color: String {
         switch self {
         case .alphabet: return "4ADE80"     // Green
@@ -68,17 +68,53 @@ enum LessonTrack: String, Codable, CaseIterable {
     }
 }
 
-enum LessonLevel: String, Codable {
-    case beginner = "beginner"
-    case intermediate = "intermediate"
-    case advanced = "advanced"
-    
+enum LessonLevel: String, Codable, CaseIterable, Identifiable {
+    case a1 = "a1"
+    case a2 = "a2"
+
+    var id: String { rawValue }
+
     var displayName: String {
         switch self {
-        case .beginner: return "입문"
-        case .intermediate: return "초급"
-        case .advanced: return "중급"
+        case .a1: return "A1"
+        case .a2: return "A2"
         }
+    }
+
+    var subtitle: String {
+        switch self {
+        case .a1: return "기초 독일어"
+        case .a2: return "확장 표현"
+        }
+    }
+
+    var sortOrder: Int {
+        switch self {
+        case .a1: return 1
+        case .a2: return 2
+        }
+    }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        let value = try container.decode(String.self)
+
+        switch value {
+        case "a1", "beginner", "intermediate":
+            self = .a1
+        case "a2", "advanced":
+            self = .a2
+        default:
+            throw DecodingError.dataCorruptedError(
+                in: container,
+                debugDescription: "Unsupported lesson level: \(value)"
+            )
+        }
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.singleValueContainer()
+        try container.encode(rawValue)
     }
 }
 

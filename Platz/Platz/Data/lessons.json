@@ -3,7 +3,7 @@
         "id": "lesson_alpha_01",
         "track": "alphabet",
         "title": "독일어 알파벳 소개",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 5,
         "order": 1,
         "contentMarkdown": "독일어 알파벳은 영어와 거의 같지만, 4개의 특수문자가 추가됩니다:\n\n- Ä, ä (A-움라우트)\n- Ö, ö (O-움라우트)\n- Ü, ü (U-움라우트)\n- ß (에스체트, 날카로운 S)",
@@ -43,7 +43,7 @@
         "id": "lesson_alpha_02",
         "track": "alphabet",
         "title": "A-J 발음 연습",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 7,
         "order": 2,
         "contentMarkdown": "A부터 J까지의 발음을 연습합니다. 영어와 비슷하지만 몇 가지 차이가 있습니다.",
@@ -100,7 +100,7 @@
         "id": "lesson_alpha_03",
         "track": "alphabet",
         "title": "K-Z 발음 연습",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 7,
         "order": 3,
         "contentMarkdown": "K부터 Z까지의 발음을 연습합니다. 특히 W, V, Z 발음에 주의하세요.",
@@ -153,7 +153,7 @@
         "id": "lesson_num_01",
         "track": "numbers",
         "title": "숫자 1-20",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 8,
         "order": 1,
         "contentMarkdown": "기본 숫자 1부터 20까지 배웁니다. 이 숫자들은 외워야 합니다.",
@@ -229,7 +229,7 @@
         "id": "lesson_num_02",
         "track": "numbers",
         "title": "숫자 21-99: 거꾸로 읽기",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 10,
         "order": 2,
         "contentMarkdown": "독일어 숫자의 특이한 점: 21부터 99까지는 일의 자리를 먼저 읽습니다!\n\n예: 21 = einundzwanzig (1 + und + 20)",
@@ -269,7 +269,7 @@
         "id": "lesson_num_03",
         "track": "numbers",
         "title": "100 이상의 큰 숫자",
-        "level": "intermediate",
+        "level": "a1",
         "durationMin": 8,
         "order": 3,
         "contentMarkdown": "100 이상의 숫자는 앞에서부터 읽습니다.\n\n100 = hundert\n1,000 = tausend\n1,000,000 = eine Million",
@@ -308,7 +308,7 @@
         "id": "lesson_gram_01",
         "track": "grammar",
         "title": "인칭대명사와 sein 동사",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 10,
         "order": 1,
         "contentMarkdown": "독일어의 인칭대명사와 가장 중요한 동사 sein(~이다)을 배웁니다.\n\nsein은 영어의 be 동사처럼 매우 불규칙합니다.",
@@ -354,7 +354,7 @@
         "id": "lesson_gram_02",
         "track": "grammar",
         "title": "관사 der, die, das 맛보기",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 8,
         "order": 2,
         "contentMarkdown": "독일어 명사에는 세 가지 성(gender)이 있습니다:\n\n- der (남성)\n- die (여성)\n- das (중성)\n\n단어를 외울 때 관사와 함께 외우세요!",
@@ -406,7 +406,7 @@
         "id": "lesson_gram_03",
         "track": "grammar",
         "title": "haben 동사 활용",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 8,
         "order": 3,
         "contentMarkdown": "haben(가지다)은 sein과 함께 가장 중요한 동사입니다.\n\n소유, 나이, 배고픔 등을 표현할 때 사용합니다.",
@@ -452,7 +452,7 @@
         "id": "lesson_gram_04",
         "track": "grammar",
         "title": "W-Fragen 질문",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 10,
         "order": 4,
         "contentMarkdown": "## 4. W-Fragen 질문\n\n| 질문사 | 의미 |\n| --- | --- |\n| Wer | 누가 |\n| Was | 무엇 |\n| Wo | 어디 |\n| Woher | 어디서 |\n| Wie | 어떻게 |\n| Wie alt | 몇 살 |\n| Wann | 언제 |",
@@ -504,7 +504,7 @@
         "id": "lesson_gram_05",
         "track": "grammar",
         "title": "부정 표현 (nicht, kein)",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 8,
         "order": 5,
         "contentMarkdown": "## 5. 부정 표현\n\n### nicht / kein\n\n- nicht → 동사, 형용사 부정\n- kein → 명사 부정",
@@ -531,11 +531,11 @@
     {
         "id": "lesson_gram_06",
         "track": "grammar",
-        "title": "전치사 (A1.1 핵심)",
-        "level": "intermediate",
+        "title": "전치사 (A1 핵심)",
+        "level": "a1",
         "durationMin": 15,
         "order": 6,
-        "contentMarkdown": "## 6. 전치사 (A1.1 핵심)\n\n전치사는 뒤에 오는 명사의 격(Case)을 결정하므로 중요합니다.\n\n### 1. 장소 / 출처\n\n- in (~안에): 건물, 방, 국가(관사 있는)\n- aus (~에서): 출신, 재료\n- nach (~로): 도시, 국가(관사 없는) 이동\n- bei (~에서): 사람, 회사, 기관\n\n### 2. 출신과 이동 구분\n\n| 의미 | 전치사 |\n| :--- | :--- |\n| ~에서 (출신) | aus (Ich komme aus Korea) |\n| ~로 (이동) | nach (Ich fliege nach Deutschland) |\n| ~에 (장소) | in (Ich bin in Seoul) |\n\n### 3. 동반과 수단 (mit)\n\nmit + Dativ (3격)\n- 사람: ~와 함께 (mit meinem Freund)\n- 수단: ~을 타고 (mit dem Bus)\n\n### 4. 시간 전치사\n\n- am (an dem): 요일, 날짜 (am Montag)\n- um: 시각 (um 9 Uhr)\n- im (in dem): 월, 계절 (im Mai)\n\n### 5. 핵심 전치사와 격\n\n꼭 외워야 할 격 지배 전치사입니다.\n\nDativ (3격) 전치사\n- aus, mit, von, bei, zu, nach\n\nAkkusativ (4격) 전치사\n- für, ohne, durch, gegen",
+        "contentMarkdown": "## 6. 전치사 (A1 핵심)\n\n전치사는 뒤에 오는 명사의 격(Case)을 결정하므로 중요합니다.\n\n### 1. 장소 / 출처\n\n- in (~안에): 건물, 방, 국가(관사 있는)\n- aus (~에서): 출신, 재료\n- nach (~로): 도시, 국가(관사 없는) 이동\n- bei (~에서): 사람, 회사, 기관\n\n### 2. 출신과 이동 구분\n\n| 의미 | 전치사 |\n| :--- | :--- |\n| ~에서 (출신) | aus (Ich komme aus Korea) |\n| ~로 (이동) | nach (Ich fliege nach Deutschland) |\n| ~에 (장소) | in (Ich bin in Seoul) |\n\n### 3. 동반과 수단 (mit)\n\nmit + Dativ (3격)\n- 사람: ~와 함께 (mit meinem Freund)\n- 수단: ~을 타고 (mit dem Bus)\n\n### 4. 시간 전치사\n\n- am (an dem): 요일, 날짜 (am Montag)\n- um: 시각 (um 9 Uhr)\n- im (in dem): 월, 계절 (im Mai)\n\n### 5. 핵심 전치사와 격\n\n꼭 외워야 할 격 지배 전치사입니다.\n\nDativ (3격) 전치사\n- aus, mit, von, bei, zu, nach\n\nAkkusativ (4격) 전치사\n- für, ohne, durch, gegen",
         "examples": [
             {
                 "de": "Ich komme aus Korea.",
@@ -578,7 +578,7 @@
         "id": "lesson_gram_07",
         "track": "grammar",
         "title": "소유격 (mein, dein)",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 8,
         "order": 7,
         "contentMarkdown": "## 7. 소유격 (mein, dein)\n\n| 인칭 | 소유격 |\n| --- | --- |\n| 나의 | mein |\n| 너의 | dein |\n| 그의 | sein |\n| 그녀의 | ihr |",
@@ -612,7 +612,7 @@
         "id": "lesson_conv_01",
         "track": "conversation",
         "title": "첫 인사와 자기소개",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 6,
         "order": 1,
         "contentMarkdown": "첫 만남에서 쓸 수 있는 기본 인사와 자기소개 표현을 배웁니다.\n\nHallo! 안녕!\nGuten Tag! 좋은 하루! (공식)",
@@ -657,7 +657,7 @@
         "id": "lesson_conv_02",
         "track": "conversation",
         "title": "안부 묻고 답하기",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 5,
         "order": 2,
         "contentMarkdown": "상대방의 안부를 묻고 대답하는 표현입니다.\n\nWie geht's? 어떻게 지내?",
@@ -702,7 +702,7 @@
         "id": "lesson_conv_03",
         "track": "conversation",
         "title": "감사와 사과 표현",
-        "level": "beginner",
+        "level": "a1",
         "durationMin": 5,
         "order": 3,
         "contentMarkdown": "일상에서 자주 쓰는 감사와 사과 표현입니다.",
@@ -742,5 +742,209 @@
             "Bitte는 '부탁해요', '천만에요', '여기요' 등 여러 뜻!"
         ],
         "miniQuizId": "quiz_conv_03"
+    },
+    {
+        "id": "lesson_a2_gram_01",
+        "track": "grammar",
+        "title": "Perfekt 과거형",
+        "level": "a2",
+        "durationMin": 9,
+        "order": 1,
+        "contentMarkdown": "## Perfekt 과거형\n\nA2에서는 어제 한 일, 이미 끝난 일을 말할 수 있어야 합니다. 일상 회화에서는 Präteritum보다 Perfekt를 훨씬 자주 씁니다.\n\n기본 구조는 다음과 같습니다.\n\n- haben/sein + Partizip II\n- Ich habe Deutsch gelernt.\n- Ich bin nach Berlin gefahren.\n\n대부분의 동사는 haben을 쓰고, 이동이나 상태 변화가 뚜렷한 동사는 sein을 자주 씁니다.",
+        "examples": [
+            {
+                "de": "Ich habe gestern Deutsch gelernt.",
+                "ko": "나는 어제 독일어를 공부했어요.",
+                "pronunciation": "이히 하베 게스턴 도이치 겔런트",
+                "note": "lernen → gelernt"
+            },
+            {
+                "de": "Wir sind nach Hause gegangen.",
+                "ko": "우리는 집에 갔어요.",
+                "pronunciation": "비어 진트 나흐 하우제 게강엔",
+                "note": "gehen은 이동 동사라 sein을 씁니다."
+            },
+            {
+                "de": "Hast du schon gegessen?",
+                "ko": "너 벌써 먹었어?",
+                "pronunciation": "하스트 두 숀 게게센",
+                "note": "essen → gegessen"
+            }
+        ],
+        "tips": [
+            "문장 끝에 Partizip II가 오는 어순을 먼저 익히세요.",
+            "haben/sein 선택보다 자주 쓰는 표현을 통째로 외우는 것이 빠릅니다."
+        ],
+        "miniQuizId": "quiz_a2_gram_01"
+    },
+    {
+        "id": "lesson_a2_gram_02",
+        "track": "grammar",
+        "title": "조동사로 말 확장하기",
+        "level": "a2",
+        "durationMin": 8,
+        "order": 2,
+        "contentMarkdown": "## 조동사\n\n조동사를 쓰면 할 수 있음, 의무, 의도, 허락을 자연스럽게 말할 수 있습니다.\n\n- können: 할 수 있다\n- müssen: 해야 한다\n- wollen: 원하다\n- dürfen: 해도 된다\n- sollen: 해야 한다고 들었다\n\n조동사가 있으면 핵심 동사는 문장 끝에서 원형으로 옵니다.",
+        "examples": [
+            {
+                "de": "Ich muss heute arbeiten.",
+                "ko": "나는 오늘 일해야 해요.",
+                "pronunciation": "이히 무스 호이테 아르바이텐",
+                "note": "arbeiten이 문장 끝 원형으로 옵니다."
+            },
+            {
+                "de": "Kannst du mir helfen?",
+                "ko": "나 좀 도와줄 수 있어?",
+                "pronunciation": "칸스트 두 미어 헬펜",
+                "note": "도움 요청에서 매우 자주 씁니다."
+            },
+            {
+                "de": "Wir wollen am Wochenende reisen.",
+                "ko": "우리는 주말에 여행하고 싶어요.",
+                "pronunciation": "비어 볼렌 암 보헨엔데 라이젠",
+                "note": "wollen은 계획/의도를 나타냅니다."
+            }
+        ],
+        "tips": [
+            "조동사 문장은 '조동사 + ... + 동사원형' 구조를 먼저 확인하세요.",
+            "können과 müssen은 A2 실전 대화에서 특히 자주 나옵니다."
+        ],
+        "miniQuizId": "quiz_a2_gram_02"
+    },
+    {
+        "id": "lesson_a2_gram_03",
+        "track": "grammar",
+        "title": "weil, dass 부문장",
+        "level": "a2",
+        "durationMin": 9,
+        "order": 3,
+        "contentMarkdown": "## weil, dass 부문장\n\nA2부터는 이유와 생각을 한 문장으로 연결해야 합니다.\n\n- weil: 왜냐하면\n- dass: ~라는 것\n\nweil/dass가 이끄는 부문장에서는 동사가 문장 끝으로 갑니다.\n\nIch lerne Deutsch, weil ich in Deutschland studieren möchte.",
+        "examples": [
+            {
+                "de": "Ich bleibe zu Hause, weil ich krank bin.",
+                "ko": "나는 아파서 집에 있어요.",
+                "pronunciation": "이히 블라이베 추 하우제 바일 이히 크랑크 빈",
+                "note": "bin이 부문장 끝으로 갑니다."
+            },
+            {
+                "de": "Ich denke, dass Deutsch interessant ist.",
+                "ko": "나는 독일어가 흥미롭다고 생각해요.",
+                "pronunciation": "이히 덴케 다스 도이치 인터레산트 이스트",
+                "note": "ist가 끝에 옵니다."
+            },
+            {
+                "de": "Sie kommt später, weil der Zug Verspätung hat.",
+                "ko": "기차가 지연돼서 그녀는 나중에 와요.",
+                "pronunciation": "지 콤트 슈페터 바일 데어 추크 페어슈페퉁 핫",
+                "note": "일상 안내/상황 설명에 유용합니다."
+            }
+        ],
+        "tips": [
+            "weil/dass 뒤에서는 동사를 끝으로 보내는 습관을 들이세요.",
+            "짧은 문장 두 개를 연결하는 연습부터 시작하면 쉽습니다."
+        ],
+        "miniQuizId": "quiz_a2_gram_03"
+    },
+    {
+        "id": "lesson_a2_gram_04",
+        "track": "grammar",
+        "title": "분리동사",
+        "level": "a2",
+        "durationMin": 8,
+        "order": 4,
+        "contentMarkdown": "## 분리동사\n\n독일어에는 앞부분이 문장 끝으로 떨어져 나가는 동사가 많습니다.\n\n- aufstehen: 일어나다\n- einkaufen: 장보다\n- anrufen: 전화하다\n- mitkommen: 같이 오다\n\n평서문에서는 앞부분이 문장 끝으로 갑니다. Perfekt에서는 다시 붙어서 Partizip II가 됩니다.",
+        "examples": [
+            {
+                "de": "Ich stehe um sieben Uhr auf.",
+                "ko": "나는 7시에 일어나요.",
+                "pronunciation": "이히 슈테에 움 지벤 우어 아우프",
+                "note": "auf가 문장 끝으로 분리됩니다."
+            },
+            {
+                "de": "Rufst du mich später an?",
+                "ko": "나중에 나에게 전화해줄래?",
+                "pronunciation": "루프스트 두 미히 슈페터 안",
+                "note": "anrufen → rufst ... an"
+            },
+            {
+                "de": "Wir haben im Supermarkt eingekauft.",
+                "ko": "우리는 슈퍼마켓에서 장을 봤어요.",
+                "pronunciation": "비어 하벤 임 주퍼마르크트 아인게카우프트",
+                "note": "Perfekt에서는 eingekauft처럼 ge가 사이에 들어갑니다."
+            }
+        ],
+        "tips": [
+            "동사 뜻을 외울 때 접두어까지 함께 외우세요.",
+            "일상 루틴을 말할 때 분리동사가 많이 나옵니다."
+        ],
+        "miniQuizId": "quiz_a2_gram_04"
+    },
+    {
+        "id": "lesson_a2_conv_01",
+        "track": "conversation",
+        "title": "약속 잡고 변경하기",
+        "level": "a2",
+        "durationMin": 7,
+        "order": 1,
+        "contentMarkdown": "약속을 제안하고, 시간이 맞지 않을 때 정중하게 바꾸는 표현을 배웁니다.\n\nA2에서는 단순히 '가능/불가능'만 말하는 것이 아니라 이유와 대안을 함께 말하는 것이 중요합니다.",
+        "examples": [
+            {
+                "de": "Hast du morgen Nachmittag Zeit?",
+                "ko": "내일 오후에 시간 있어?",
+                "pronunciation": "하스트 두 모르겐 나흐미탁 차이트",
+                "note": "약속을 시작하는 자연스러운 질문입니다."
+            },
+            {
+                "de": "Leider kann ich morgen nicht.",
+                "ko": "아쉽지만 나는 내일 안 돼.",
+                "pronunciation": "라이더 칸 이히 모르겐 니히트",
+                "note": "Leider를 쓰면 부드럽게 거절할 수 있습니다."
+            },
+            {
+                "de": "Passt dir Freitag um sechs?",
+                "ko": "금요일 6시는 너에게 괜찮아?",
+                "pronunciation": "파스트 디어 프라이탁 움 젝스",
+                "note": "passen은 일정이 맞는지 물을 때 씁니다."
+            }
+        ],
+        "tips": [
+            "거절할 때는 Leider + 대안 제시를 함께 쓰면 자연스럽습니다.",
+            "Passt dir...? 는 친구 사이 약속에서 매우 유용합니다."
+        ],
+        "miniQuizId": "quiz_a2_conv_01"
+    },
+    {
+        "id": "lesson_a2_conv_02",
+        "track": "conversation",
+        "title": "문제 설명하고 도움 요청하기",
+        "level": "a2",
+        "durationMin": 8,
+        "order": 2,
+        "contentMarkdown": "A2 실생활 회화에서는 문제가 생겼을 때 상황을 설명하고 도움을 요청할 수 있어야 합니다.\n\n핵심은 문제, 시점, 요청을 짧게 나누어 말하는 것입니다.\n\n- Ich habe ein Problem mit...\n- Seit gestern funktioniert ... nicht.\n- Können Sie mir bitte helfen?",
+        "examples": [
+            {
+                "de": "Ich habe ein Problem mit meinem Termin.",
+                "ko": "제 예약/일정에 문제가 있어요.",
+                "pronunciation": "이히 하베 아인 프로블렘 미트 마이넴 테어민",
+                "note": "mit + Dativ 구조입니다."
+            },
+            {
+                "de": "Seit gestern funktioniert mein Handy nicht.",
+                "ko": "어제부터 제 휴대폰이 작동하지 않아요.",
+                "pronunciation": "자이트 게스턴 풍크치오니어트 마인 핸디 니히트",
+                "note": "Seit gestern = 어제부터"
+            },
+            {
+                "de": "Könnten Sie das bitte noch einmal erklären?",
+                "ko": "그걸 한 번 더 설명해 주실 수 있을까요?",
+                "pronunciation": "쾬튼 지 다스 비테 노흐 아인말 에어클래렌",
+                "note": "Könnten Sie...? 는 정중한 요청입니다."
+            }
+        ],
+        "tips": [
+            "문제가 생긴 시점은 seit + Dativ로 말할 수 있습니다.",
+            "공식 상황에서는 Kannst du...? 보다 Könnten Sie...? 가 안전합니다."
+        ],
+        "miniQuizId": "quiz_a2_conv_02"
     }
 ]

@@ -14,34 +14,41 @@ struct DialogView: View {
     @Environment(\.presentationMode) var presentationMode
     @State private var showTranslation = true
     @State private var showQuiz = false
-    
+
     var quiz: Quiz? {
         if let quizId = dialog.quizId {
             return dataManager.quiz(byId: quizId)
         }
         return nil
     }
-    
+
     var body: some View {
         ZStack {
             PlatzColors.background.ignoresSafeArea()
-            
+
             ScrollView {
                 VStack(alignment: .leading, spacing: PlatzSpacing.lg) {
                     // Header
                     VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
-                        HStack(spacing: PlatzSpacing.xs) {
-                            Image(systemName: DialogTopic(rawValue: dialog.topic)?.icon ?? "bubble.left.fill")
-                            Text(DialogTopic(rawValue: dialog.topic)?.displayName ?? dialog.topic)
+                        HStack(spacing: PlatzSpacing.md) {
+                            HStack(spacing: PlatzSpacing.xs) {
+                                Image(systemName: DialogTopic(rawValue: dialog.topic)?.icon ?? "bubble.left.fill")
+                                Text(DialogTopic(rawValue: dialog.topic)?.displayName ?? dialog.topic)
+                            }
+
+                            HStack(spacing: PlatzSpacing.xs) {
+                                Image(systemName: "chart.bar")
+                                Text(dialog.level.displayName)
+                            }
                         }
                         .font(PlatzTypography.captionBold)
                         .foregroundColor(PlatzColors.primary)
-                        
+
                         Text(dialog.title)
                             .font(PlatzTypography.title1)
                             .foregroundColor(PlatzColors.textPrimary)
                     }
-                    
+
                     // Toggle
                     HStack {
                         Text("해석 보기")
@@ -55,14 +62,14 @@ struct DialogView: View {
                     .padding(PlatzSpacing.sm)
                     .background(PlatzColors.surface)
                     .cornerRadius(PlatzRadius.medium)
-                    
+
                     // Lines
                     VStack(spacing: PlatzSpacing.md) {
                         ForEach(Array(dialog.lines.enumerated()), id: \.offset) { index, line in
                             DialogBubble(line: line, showTranslation: showTranslation, isLeft: line.speaker == "A")
                         }
                     }
-                    
+
                     // Keywords
                     if !dialog.keywords.isEmpty {
                         VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
@@ -70,7 +77,7 @@ struct DialogView: View {
                                 Image(systemName: "key.fill").foregroundColor(PlatzColors.primary)
                                 Text("핵심 표현").font(PlatzTypography.bodyBold).foregroundColor(PlatzColors.textPrimary)
                             }
-                            
+
                             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: PlatzSpacing.xs) {
                                 ForEach(dialog.keywords) { kw in
                                     KeywordChip(keyword: kw)
@@ -81,7 +88,7 @@ struct DialogView: View {
                         .background(PlatzColors.surface)
                         .cornerRadius(PlatzRadius.large)
                     }
-                    
+
                     // Complete Button
                     Button {
                         progressManager.completeLesson(dialog.id, duration: 5)
@@ -96,12 +103,12 @@ struct DialogView: View {
                             .cornerRadius(PlatzRadius.large)
                     }
                     .padding(.top, PlatzSpacing.md)
-                    
+
                     Spacer().frame(height: 100)
                 }
                 .padding(PlatzSpacing.md)
             }
-            
+
             // Removed existing bottom footer code since we moved the button inside content
         }
         .navigationBarTitleDisplayMode(.inline)

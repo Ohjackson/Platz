@@ -239,7 +239,6 @@ struct MarkdownContent: View {
         // Bold text **...**
         let boldPattern = /\*\*(.+?)\*\*/
         for match in text.matches(of: boldPattern) {
-            let boldText = String(match.1)
             let fullMatch = String(match.0)
             
             // Find range of the full match "**text**"

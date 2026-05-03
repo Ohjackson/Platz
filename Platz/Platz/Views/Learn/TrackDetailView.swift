@@ -11,48 +11,59 @@ struct TrackDetailView: View {
     let track: LessonTrack
     @EnvironmentObject var dataManager: DataManager
     @EnvironmentObject var progressManager: ProgressManager
-    
+
     var lessons: [Lesson] {
-        dataManager.lessons(forTrack: track)
+        dataManager.lessons(forTrack: track, level: progressManager.selectedLessonLevel)
     }
-    
+
+    var dialogs: [Dialog] {
+        guard track == .conversation else { return [] }
+        return dataManager.allDialogs(for: progressManager.selectedLessonLevel)
+    }
+
     var nextLesson: Lesson? {
         lessons.first { !progressManager.isLessonCompleted($0.id) }
     }
-    
+
     var completedCount: Int {
-        lessons.filter { progressManager.isLessonCompleted($0.id) }.count
+        (lessons.map(\.id) + dialogs.map(\.id)).filter {
+            progressManager.isLessonCompleted($0)
+        }.count
     }
-    
+
+    var totalCount: Int {
+        lessons.count + dialogs.count
+    }
+
     var body: some View {
         ZStack {
             PlatzColors.background
                 .ignoresSafeArea()
-            
+
             ScrollView {
                 VStack(spacing: PlatzSpacing.lg) {
                     // Track Header
                     TrackHeaderCard(
                         track: track,
                         completedCount: completedCount,
-                        totalCount: lessons.count
+                        totalCount: totalCount
                     )
-                    
+
                     // Next Lesson (if exists)
                     if let next = nextLesson {
                         NextLessonCard(lesson: next)
                     }
-                    
+
                     // All Lessons
                     if !lessons.isEmpty {
                         LessonsListSection(lessons: lessons)
                     }
-                    
+
                     // Specific logic for Conversation Track: Show Dialogs list
                     if track == .conversation {
-                        DialogsListSection(dialogs: dataManager.allDialogs)
+                        DialogsListSection(dialogs: dialogs)
                     }
-                    
+
                     // Spacer for tab bar
                     Spacer()
                         .frame(height: 100)
@@ -70,12 +81,12 @@ struct TrackHeaderCard: View {
     let track: LessonTrack
     let completedCount: Int
     let totalCount: Int
-    
+
     var progress: Double {
         guard totalCount > 0 else { return 0 }
         return Double(completedCount) / Double(totalCount)
     }
-    
+
     var body: some View {
         HStack(spacing: PlatzSpacing.md) {
             // Icon
@@ -83,32 +94,32 @@ struct TrackHeaderCard: View {
                 Circle()
                     .fill(Color(hex: track.color).opacity(0.2))
                     .frame(width: 56, height: 56)
-                
+
                 Image(systemName: track.icon)
                     .font(.title2)
                     .foregroundColor(Color(hex: track.color))
             }
-            
+
             // Info
             VStack(alignment: .leading, spacing: PlatzSpacing.xs) {
                 Text(track.description)
                     .font(PlatzTypography.body)
                     .foregroundColor(PlatzColors.textSecondary)
-                
+
                 // Progress bar
                 GeometryReader { geometry in
                     ZStack(alignment: .leading) {
                         RoundedRectangle(cornerRadius: 3)
                             .fill(PlatzColors.border)
                             .frame(height: 6)
-                        
+
                         RoundedRectangle(cornerRadius: 3)
                             .fill(Color(hex: track.color))
                             .frame(width: geometry.size.width * progress, height: 6)
                     }
                 }
                 .frame(height: 6)
-                
+
                 Text("\(completedCount)/\(totalCount) 완료")
                     .font(PlatzTypography.caption)
                     .foregroundColor(PlatzColors.textMuted)
@@ -127,7 +138,7 @@ struct TrackHeaderCard: View {
 // MARK: - Next Lesson Card
 struct NextLessonCard: View {
     let lesson: Lesson
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
             HStack {
@@ -137,7 +148,7 @@ struct NextLessonCard: View {
                     .font(PlatzTypography.captionBold)
                     .foregroundColor(PlatzColors.primary)
             }
-            
+
             NavigationLink {
                 LessonDetailView(lesson: lesson)
             } label: {
@@ -146,14 +157,14 @@ struct NextLessonCard: View {
                         Text(lesson.title)
                             .font(PlatzTypography.bodyBold)
                             .foregroundColor(PlatzColors.textPrimary)
-                        
+
                         Text("\(lesson.durationMin)분 · \(lesson.level.displayName)")
                             .font(PlatzTypography.caption)
                             .foregroundColor(PlatzColors.textMuted)
                     }
-                    
+
                     Spacer()
-                    
+
                     Text("시작")
                         .font(PlatzTypography.buttonSmall)
                         .foregroundColor(PlatzColors.onPrimary)
@@ -179,13 +190,13 @@ struct NextLessonCard: View {
 struct LessonsListSection: View {
     let lessons: [Lesson]
     @EnvironmentObject var progressManager: ProgressManager
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
             Text("모든 레슨")
                 .font(PlatzTypography.captionBold)
                 .foregroundColor(PlatzColors.textMuted)
-            
+
             VStack(spacing: PlatzSpacing.xs) {
                 ForEach(lessons) { lesson in
                     NavigationLink {
@@ -203,19 +214,19 @@ struct LessonsListSection: View {
     }
 }
 
-    
+
 
 // MARK: - Dialogs List Section
 struct DialogsListSection: View {
     let dialogs: [Dialog]
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: PlatzSpacing.sm) {
             Text("회화 목록")
                 .font(PlatzTypography.captionBold)
                 .foregroundColor(PlatzColors.textMuted)
                 .padding(.top, PlatzSpacing.md)
-            
+
             VStack(spacing: PlatzSpacing.xs) {
                 ForEach(dialogs) { dialog in
                     NavigationLink {

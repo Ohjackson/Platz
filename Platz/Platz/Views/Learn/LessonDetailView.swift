@@ -216,7 +216,7 @@ struct BottomButtonsBar: View {
             id: "test",
             track: .alphabet,
             title: "독일어 알파벳 소개",
-            level: .beginner,
+            level: .a1,
             durationMin: 5,
             contentMarkdown: "독일어 알파벳은 영어와 비슷하지만 **4개의 특수문자**가 있습니다.",
             examples: [

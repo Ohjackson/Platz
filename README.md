@@ -18,6 +18,7 @@ The core language learning module with multiple tracks:
 - **Numbers Track** (`numbers`) - Numbers from 1 to 1000+, including unique German number rules
 - **Grammar Track** (`grammar`) - Essential German grammar (articles, verb conjugations)
 - **Conversation Track** (`conversation`) - Common phrases and everyday conversations
+- **A1/A2 Level Selection** - Filters lessons and dialogs by the selected CEFR level
 
 #### Interactive Features
 - **Lesson Detail View** - Markdown-based lesson content with examples, tips, and pronunciation guides
@@ -27,9 +28,9 @@ The core language learning module with multiple tracks:
 - **Speech Synthesis** - Text-to-speech for German pronunciation practice
 
 #### Data Sources
-- `lessons.json` - 15 structured lessons across 4 tracks
-- `dialogs.json` - 5 conversational scenarios (greetings, cafe, directions, shopping, hotel)
-- `quizzes.json` - 15+ quizzes with explanations
+- `lessons.json` - 22 structured lessons across A1/A2
+- `dialogs.json` - 13 conversational scenarios across A1/A2
+- `quizzes.json` - 25 quizzes with explanations
 - `quotes.json` - Inspirational German quotes with translations and explanations
 
 ---
@@ -94,9 +95,9 @@ Platz/
 │
 ├── Data/
 │   ├── articles.json      # 12 articles about Germany
-│   ├── lessons.json       # 15 language lessons
-│   ├── dialogs.json       # 5 conversation scenarios
-│   ├── quizzes.json       # 15+ quiz sets
+│   ├── lessons.json       # 22 language lessons
+│   ├── dialogs.json       # 13 conversation scenarios
+│   ├── quizzes.json       # 25 quiz sets
 │   └── quotes.json        # 10 German quotes
 │
 ├── Utilities/
@@ -153,7 +154,7 @@ Each lesson contains:
 
 ### Dialogs (`dialogs.json`)
 Conversation scenarios with:
-- `topic`, `title`, `description`, `order`
+- `topic`, `title`, `description`, `level`, `order`
 - `lines[]` - Array of conversation turns with speaker, German text, Korean translation, notes
 - `keywords[]` - Key vocabulary with meanings
 - `quizId` - Optional linked quiz

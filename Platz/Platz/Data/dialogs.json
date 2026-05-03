@@ -4,6 +4,7 @@
         "topic": "greeting",
         "title": "첫 만남 인사",
         "description": "처음 만났을 때 하는 기본 인사",
+        "level": "a1",
         "order": 1,
         "lines": [
             {
@@ -76,6 +77,7 @@
         "topic": "cafe",
         "title": "카페에서 주문하기",
         "description": "카페에서 음료를 주문하는 상황",
+        "level": "a1",
         "order": 2,
         "lines": [
             {
@@ -154,6 +156,7 @@
         "topic": "directions",
         "title": "길 묻기",
         "description": "거리에서 목적지까지 가는 길을 묻는 상황",
+        "level": "a1",
         "order": 3,
         "lines": [
             {
@@ -236,6 +239,7 @@
         "topic": "shopping",
         "title": "빵집에서",
         "description": "빵집에서 빵을 구매하는 상황",
+        "level": "a1",
         "order": 4,
         "lines": [
             {
@@ -314,6 +318,7 @@
         "topic": "travel",
         "title": "호텔 체크인",
         "description": "호텔에 도착해 체크인하는 상황",
+        "level": "a1",
         "order": 5,
         "lines": [
             {
@@ -396,6 +401,7 @@
         "topic": "travel",
         "title": "공항에서",
         "description": "공항 수속을 밟거나 안내를 받는 상황",
+        "level": "a1",
         "order": 6,
         "lines": [
             {
@@ -454,6 +460,7 @@
         "topic": "love",
         "title": "사랑 고백",
         "description": "좋아하는 마음을 고백하는 로맨틱한 상황",
+        "level": "a1",
         "order": 7,
         "lines": [
             {
@@ -518,6 +525,7 @@
         "topic": "school",
         "title": "학교 수업",
         "description": "수업 시간에 질문하고 대답하는 상황",
+        "level": "a1",
         "order": 8,
         "lines": [
             {
@@ -576,6 +584,7 @@
         "topic": "hobby",
         "title": "취미 이야기",
         "description": "서로의 취미에 대해 묻고 답하기",
+        "level": "a1",
         "order": 9,
         "lines": [
             {
@@ -634,6 +643,7 @@
         "topic": "train",
         "title": "기차표 예매",
         "description": "기차역 창구에서 표를 사는 상황",
+        "level": "a1",
         "order": 10,
         "lines": [
             {
@@ -683,6 +693,183 @@
             {
                 "word": "kosten",
                 "meaning": "(비용이) 들다"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_a2_appointment_01",
+        "topic": "appointment",
+        "title": "약속 시간 변경",
+        "description": "친구와의 약속 시간을 정중하게 바꾸는 상황",
+        "level": "a2",
+        "order": 1,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Hallo Max, hast du morgen Nachmittag Zeit?",
+                "ko": "안녕 막스, 내일 오후에 시간 있어?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Leider nicht. Ich muss bis sechs Uhr arbeiten.",
+                "ko": "아쉽지만 안 돼. 나는 6시까지 일해야 해.",
+                "note": "Leider를 쓰면 거절이 부드러워집니다."
+            },
+            {
+                "speaker": "A",
+                "de": "Kein Problem. Passt dir Freitag um sieben?",
+                "ko": "괜찮아. 금요일 7시는 너에게 맞아?",
+                "note": "Passt dir...? = 너에게 괜찮아?"
+            },
+            {
+                "speaker": "B",
+                "de": "Ja, das passt gut. Wo treffen wir uns?",
+                "ko": "응, 그거 좋아. 우리 어디에서 만날까?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Vor dem Kino. Ich schicke dir die Adresse.",
+                "ko": "영화관 앞에서. 내가 주소를 보내줄게.",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "Leider nicht",
+                "meaning": "아쉽지만 안 돼"
+            },
+            {
+                "word": "passen",
+                "meaning": "일정이 맞다"
+            },
+            {
+                "word": "sich treffen",
+                "meaning": "만나다"
+            },
+            {
+                "word": "die Adresse",
+                "meaning": "주소"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_a2_doctor_01",
+        "topic": "doctor",
+        "title": "병원 예약하기",
+        "description": "전화로 증상을 설명하고 진료 예약을 잡는 상황",
+        "level": "a2",
+        "order": 2,
+        "lines": [
+            {
+                "speaker": "B",
+                "de": "Praxis Dr. Schneider, guten Morgen.",
+                "ko": "슈나이더 병원입니다, 좋은 아침입니다.",
+                "note": "Praxis는 개인 병원/진료소를 뜻합니다."
+            },
+            {
+                "speaker": "A",
+                "de": "Guten Morgen. Ich möchte gern einen Termin machen.",
+                "ko": "좋은 아침입니다. 예약을 하고 싶어요.",
+                "note": "einen Termin machen = 예약하다"
+            },
+            {
+                "speaker": "B",
+                "de": "Welche Beschwerden haben Sie?",
+                "ko": "어떤 증상이 있으신가요?",
+                "note": "Beschwerden = 증상/불편함"
+            },
+            {
+                "speaker": "A",
+                "de": "Ich habe seit gestern Fieber und starke Kopfschmerzen.",
+                "ko": "어제부터 열이 있고 두통이 심해요.",
+                "note": "seit gestern = 어제부터"
+            },
+            {
+                "speaker": "B",
+                "de": "Sie können heute um halb vier kommen.",
+                "ko": "오늘 3시 반에 오실 수 있습니다.",
+                "note": "halb vier = 3시 반"
+            }
+        ],
+        "keywords": [
+            {
+                "word": "einen Termin machen",
+                "meaning": "예약하다"
+            },
+            {
+                "word": "die Beschwerden",
+                "meaning": "증상"
+            },
+            {
+                "word": "das Fieber",
+                "meaning": "열"
+            },
+            {
+                "word": "die Kopfschmerzen",
+                "meaning": "두통"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_a2_housing_01",
+        "topic": "housing",
+        "title": "집 문제 설명하기",
+        "description": "집 안의 문제를 설명하고 수리를 요청하는 상황",
+        "level": "a2",
+        "order": 3,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Guten Tag, ich habe ein Problem in meiner Wohnung.",
+                "ko": "안녕하세요, 제 집에 문제가 있어요.",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Was funktioniert nicht?",
+                "ko": "무엇이 작동하지 않나요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Die Heizung funktioniert seit gestern nicht.",
+                "ko": "난방이 어제부터 작동하지 않아요.",
+                "note": "die Heizung = 난방"
+            },
+            {
+                "speaker": "B",
+                "de": "Ich schicke morgen einen Techniker vorbei.",
+                "ko": "내일 기술자를 보내겠습니다.",
+                "note": "vorbeischicken = 보내 들르게 하다"
+            },
+            {
+                "speaker": "A",
+                "de": "Vielen Dank. Muss ich zu Hause bleiben?",
+                "ko": "감사합니다. 제가 집에 있어야 하나요?",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "die Wohnung",
+                "meaning": "집, 아파트"
+            },
+            {
+                "word": "die Heizung",
+                "meaning": "난방"
+            },
+            {
+                "word": "funktionieren",
+                "meaning": "작동하다"
+            },
+            {
+                "word": "der Techniker",
+                "meaning": "기술자"
             }
         ],
         "quizId": null

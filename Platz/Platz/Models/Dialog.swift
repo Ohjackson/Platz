@@ -12,6 +12,7 @@ struct Dialog: Codable, Identifiable {
     let topic: String               // 인사, 카페, 길찾기 등
     let title: String
     let description: String?
+    let level: LessonLevel
     let lines: [DialogLine]
     let keywords: [DialogKeyword]
     let quizId: String?
@@ -45,6 +46,9 @@ enum DialogTopic: String, CaseIterable {
     case shopping = "shopping"
     case travel = "travel"
     case love = "love"
+    case appointment = "appointment"
+    case doctor = "doctor"
+    case housing = "housing"
     
     var displayName: String {
         switch self {
@@ -58,6 +62,9 @@ enum DialogTopic: String, CaseIterable {
         case .shopping: return "쇼핑"
         case .travel: return "여행"
         case .love: return "사랑/고백"
+        case .appointment: return "약속/일정"
+        case .doctor: return "병원"
+        case .housing: return "집/생활"
         }
     }
     
@@ -73,6 +80,9 @@ enum DialogTopic: String, CaseIterable {
         case .shopping: return "cart.fill"
         case .travel: return "airplane.departure"
         case .love: return "heart.fill"
+        case .appointment: return "calendar"
+        case .doctor: return "cross.case.fill"
+        case .housing: return "house.fill"
         }
     }
 }
