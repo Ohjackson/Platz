@@ -1211,5 +1211,361 @@
                 "explanation": "seit는 어떤 시점부터 지금까지 이어지는 상황을 말할 때 씁니다."
             }
         ]
+    },
+    {
+        "id": "quiz_a2_gram_05",
+        "title": "A2 문법 퀴즈: 장소와 방향 전치사",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_05",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "Wo? 질문에 보통 연결되는 격은?",
+                "options": [
+                    "Nominativ",
+                    "Dativ",
+                    "Akkusativ",
+                    "Genitiv"
+                ],
+                "correctAnswer": "Dativ",
+                "explanation": "장소를 묻는 Wo? 에는 보통 Dativ를 씁니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "맞는 문장을 고르세요.",
+                "options": [
+                    "Das Buch liegt auf dem Tisch.",
+                    "Das Buch liegt auf den Tisch."
+                ],
+                "correctAnswer": "Das Buch liegt auf dem Tisch.",
+                "explanation": "책이 놓여 있는 위치이므로 Dativ인 dem Tisch가 맞습니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "방향을 나타내는 문장은?",
+                "options": [
+                    "Ich bin in der Schule.",
+                    "Ich gehe in die Schule."
+                ],
+                "correctAnswer": "Ich gehe in die Schule.",
+                "explanation": "학교로 이동하는 방향이므로 Akkusativ인 die Schule을 씁니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_06",
+        "title": "A2 문법 퀴즈: 비교급과 최상급",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_06",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "schnell의 비교급은?",
+                "options": [
+                    "schnellsten",
+                    "schneller",
+                    "mehr schnell",
+                    "am schnell"
+                ],
+                "correctAnswer": "schneller",
+                "explanation": "schnell의 비교급은 schneller입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "비교 대상을 연결할 때 쓰는 말은?",
+                "options": [
+                    "weil",
+                    "dass",
+                    "als",
+                    "wenn"
+                ],
+                "correctAnswer": "als",
+                "explanation": "Berlin ist größer als Bonn처럼 비교 대상 앞에는 als를 씁니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "gut의 최상급으로 자연스러운 표현은?",
+                "options": [
+                    "am guten",
+                    "am besten",
+                    "besser",
+                    "mehr gut"
+                ],
+                "correctAnswer": "am besten",
+                "explanation": "gut은 불규칙형으로 gut, besser, am besten입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_07",
+        "title": "A2 문법 퀴즈: 재귀동사",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_07",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "Ich freue ___ auf das Wochenende. 빈칸에 알맞은 말은?",
+                "options": [
+                    "mich",
+                    "dich",
+                    "sich",
+                    "uns"
+                ],
+                "correctAnswer": "mich",
+                "explanation": "주어가 ich일 때 재귀대명사는 mich입니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "Wir treffen ___ vor dem Kino. 빈칸에 알맞은 말은?",
+                "options": [
+                    "mich",
+                    "dich",
+                    "uns",
+                    "euch"
+                ],
+                "correctAnswer": "uns",
+                "explanation": "주어가 wir일 때 재귀대명사는 uns입니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "sich fühlen의 뜻은?",
+                "options": [
+                    "기억하다",
+                    "느끼다",
+                    "만나다",
+                    "기대하다"
+                ],
+                "correctAnswer": "느끼다",
+                "explanation": "sich fühlen은 기분이나 상태를 느끼다라는 뜻입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_08",
+        "title": "A2 문법 퀴즈: 형용사 어미",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_08",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "맞는 표현을 고르세요.",
+                "options": [
+                    "eine kleine Wohnung",
+                    "eine kleines Wohnung",
+                    "ein kleine Wohnung",
+                    "ein kleiner Wohnung"
+                ],
+                "correctAnswer": "eine kleine Wohnung",
+                "explanation": "Wohnung은 여성명사이므로 eine kleine Wohnung이 자연스럽습니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "Das ist ___ gutes Angebot. 빈칸에 알맞은 말은?",
+                "options": [
+                    "eine",
+                    "ein",
+                    "einen",
+                    "einem"
+                ],
+                "correctAnswer": "ein",
+                "explanation": "Angebot은 중성명사이고 주격이므로 ein gutes Angebot입니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "Ich nehme ___ roten Pullover. 빈칸에 알맞은 말은?",
+                "options": [
+                    "der",
+                    "den",
+                    "dem",
+                    "das"
+                ],
+                "correctAnswer": "den",
+                "explanation": "Pullover는 남성명사이고 nehmen의 목적어라 Akkusativ den을 씁니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_09",
+        "title": "A2 문법 퀴즈: zu Infinitiv",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_09",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "맞는 문장을 고르세요.",
+                "options": [
+                    "Ich versuche, früher aufzustehen.",
+                    "Ich versuche, früher zu aufstehen."
+                ],
+                "correctAnswer": "Ich versuche, früher aufzustehen.",
+                "explanation": "분리동사는 zu가 사이에 들어가서 aufzustehen이 됩니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "Es ist schwer, eine Wohnung ___ finden. 빈칸에 알맞은 말은?",
+                "options": [
+                    "zu",
+                    "auf",
+                    "mit",
+                    "als"
+                ],
+                "correctAnswer": "zu",
+                "explanation": "평가 표현 뒤에서 zu + Infinitiv 구조를 씁니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "zu + Infinitiv를 쓰는 문장으로 자연스러운 것은?",
+                "options": [
+                    "Ich habe Lust, heute Abend zu kochen.",
+                    "Ich habe Lust, heute Abend kochen zu."
+                ],
+                "correctAnswer": "Ich habe Lust, heute Abend zu kochen.",
+                "explanation": "일반 동사는 zu가 동사원형 앞에 옵니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_gram_10",
+        "title": "A2 문법 퀴즈: wenn 조건문",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_gram_10",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "wenn의 기본 뜻으로 가장 가까운 것은?",
+                "options": [
+                    "하지만",
+                    "왜냐하면",
+                    "만약 ~라면",
+                    "~라는 것"
+                ],
+                "correctAnswer": "만약 ~라면",
+                "explanation": "wenn은 조건이나 반복되는 상황을 말할 때 씁니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "맞는 문장을 고르세요.",
+                "options": [
+                    "Wenn ich Zeit habe, komme ich mit.",
+                    "Wenn ich habe Zeit, komme ich mit."
+                ],
+                "correctAnswer": "Wenn ich Zeit habe, komme ich mit.",
+                "explanation": "wenn 부문장에서는 동사 habe가 끝에 옵니다."
+            },
+            {
+                "id": "q3",
+                "type": "choice",
+                "question": "Ich rufe dich an, wenn ich fertig ___. 빈칸에 알맞은 말은?",
+                "options": [
+                    "bin",
+                    "ist",
+                    "habe",
+                    "werde"
+                ],
+                "correctAnswer": "bin",
+                "explanation": "fertig sein 구조이며 주어가 ich이므로 bin입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_conv_03",
+        "title": "A2 회화 퀴즈: 식당 문제 말하기",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_conv_03",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "주문이 잘못 나왔을 때 가장 자연스러운 표현은?",
+                "options": [
+                    "Entschuldigung, ich habe etwas anderes bestellt.",
+                    "Ich bin bestellt.",
+                    "Das ist morgen anders.",
+                    "Sie bestellen mich."
+                ],
+                "correctAnswer": "Entschuldigung, ich habe etwas anderes bestellt.",
+                "explanation": "Entschuldigung으로 시작하고 Perfekt로 주문했던 것을 설명하면 자연스럽습니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "Könnten Sie das bitte überprüfen? 의 뜻은?",
+                "options": [
+                    "그걸 확인해 주실 수 있을까요?",
+                    "그걸 주문하시겠어요?",
+                    "계산서를 가져왔나요?",
+                    "음식이 차갑나요?"
+                ],
+                "correctAnswer": "그걸 확인해 주실 수 있을까요?",
+                "explanation": "überprüfen은 확인하다라는 뜻입니다."
+            }
+        ]
+    },
+    {
+        "id": "quiz_a2_conv_04",
+        "title": "A2 회화 퀴즈: 교통 지연",
+        "type": "lesson",
+        "sourceLessonId": "lesson_a2_conv_04",
+        "sourceDialogId": null,
+        "passingScore": 60,
+        "questions": [
+            {
+                "id": "q1",
+                "type": "choice",
+                "question": "Verspätung의 뜻은?",
+                "options": [
+                    "환승",
+                    "지연",
+                    "좌석",
+                    "영수증"
+                ],
+                "correctAnswer": "지연",
+                "explanation": "Verspätung은 기차나 버스의 지연을 뜻합니다."
+            },
+            {
+                "id": "q2",
+                "type": "choice",
+                "question": "다른 연결편이 있나요? 에 가까운 독일어 표현은?",
+                "options": [
+                    "Gibt es eine andere Verbindung?",
+                    "Hat der Zug Hunger?",
+                    "Ist die Rechnung richtig?",
+                    "Kann ich den Pullover umtauschen?"
+                ],
+                "correctAnswer": "Gibt es eine andere Verbindung?",
+                "explanation": "Verbindung은 교통 연결편을 뜻합니다."
+            }
+        ]
     }
 ]

@@ -6,6 +6,10 @@
 
 **Platz** is a comprehensive iOS application designed to help Korean speakers learn German language and culture. The app combines structured language lessons, interactive dialogs, quizzes, and in-depth articles about Germany.
 
+## Version 1.1 Updates
+- Added expanded A2 lessons, dialogs, and quizzes with A1/A2 level selection.
+- Updated app metadata and documentation for the 1.1 release.
+
 ---
 
 ## 📱 Features
@@ -28,9 +32,9 @@ The core language learning module with multiple tracks:
 - **Speech Synthesis** - Text-to-speech for German pronunciation practice
 
 #### Data Sources
-- `lessons.json` - 22 structured lessons across A1/A2
-- `dialogs.json` - 13 conversational scenarios across A1/A2
-- `quizzes.json` - 25 quizzes with explanations
+- `lessons.json` - 30 structured lessons across A1/A2
+- `dialogs.json` - 17 conversational scenarios across A1/A2
+- `quizzes.json` - 33 quizzes with explanations
 - `quotes.json` - Inspirational German quotes with translations and explanations
 
 ---
@@ -95,9 +99,9 @@ Platz/
 │
 ├── Data/
 │   ├── articles.json      # 12 articles about Germany
-│   ├── lessons.json       # 22 language lessons
-│   ├── dialogs.json       # 13 conversation scenarios
-│   ├── quizzes.json       # 25 quiz sets
+│   ├── lessons.json       # 30 language lessons
+│   ├── dialogs.json       # 17 conversation scenarios
+│   ├── quizzes.json       # 33 quiz sets
 │   └── quotes.json        # 10 German quotes
 │
 ├── Utilities/

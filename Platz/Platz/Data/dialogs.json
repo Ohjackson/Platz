@@ -873,5 +873,247 @@
             }
         ],
         "quizId": null
+    },
+    {
+        "id": "dialog_a2_cafe_01",
+        "topic": "cafe",
+        "title": "주문 확인과 변경",
+        "description": "카페에서 잘못 나온 주문을 정중하게 확인하고 바꾸는 상황",
+        "level": "a2",
+        "order": 4,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Entschuldigung, ich glaube, das ist nicht meine Bestellung.",
+                "ko": "실례합니다, 제 주문이 아닌 것 같아요.",
+                "note": "Ich glaube를 넣으면 표현이 부드러워집니다."
+            },
+            {
+                "speaker": "B",
+                "de": "Oh, was haben Sie bestellt?",
+                "ko": "아, 무엇을 주문하셨나요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ich hatte einen Cappuccino und ein Stück Kuchen.",
+                "ko": "저는 카푸치노 하나와 케이크 한 조각을 주문했어요.",
+                "note": "주문했던 것을 말할 때 hatte를 쓸 수 있습니다."
+            },
+            {
+                "speaker": "B",
+                "de": "Entschuldigung, ich bringe Ihnen sofort die richtige Bestellung.",
+                "ko": "죄송합니다, 바로 올바른 주문을 가져다드릴게요.",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Vielen Dank. Könnten Sie bitte auch die Rechnung prüfen?",
+                "ko": "감사합니다. 계산서도 확인해 주실 수 있을까요?",
+                "note": "Rechnung prüfen = 계산서를 확인하다"
+            }
+        ],
+        "keywords": [
+            {
+                "word": "die Bestellung",
+                "meaning": "주문"
+            },
+            {
+                "word": "ein Stück Kuchen",
+                "meaning": "케이크 한 조각"
+            },
+            {
+                "word": "sofort",
+                "meaning": "바로, 즉시"
+            },
+            {
+                "word": "die Rechnung prüfen",
+                "meaning": "계산서를 확인하다"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_a2_travel_delay_01",
+        "topic": "travel",
+        "title": "기차 지연 문의",
+        "description": "기차가 늦을 때 연결편과 대안을 묻는 상황",
+        "level": "a2",
+        "order": 5,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Entschuldigung, mein Zug nach Hamburg hat Verspätung.",
+                "ko": "실례합니다, 함부르크행 제 기차가 지연됐어요.",
+                "note": "Verspätung haben = 지연되다"
+            },
+            {
+                "speaker": "B",
+                "de": "Wie viel Verspätung hat der Zug?",
+                "ko": "그 기차가 얼마나 지연됐나요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Ungefähr fünfundzwanzig Minuten. Verpasse ich meinen Anschluss?",
+                "ko": "약 25분이요. 제가 환승편을 놓치나요?",
+                "note": "Anschluss = 연결편, 환승편"
+            },
+            {
+                "speaker": "B",
+                "de": "Ja, wahrscheinlich. Sie können den nächsten Zug um 18 Uhr nehmen.",
+                "ko": "네, 아마도요. 18시 다음 기차를 타실 수 있어요.",
+                "note": "wahrscheinlich = 아마도"
+            },
+            {
+                "speaker": "A",
+                "de": "Muss ich ein neues Ticket kaufen?",
+                "ko": "새 표를 사야 하나요?",
+                "note": null
+            },
+            {
+                "speaker": "B",
+                "de": "Nein, Ihr Ticket bleibt gültig.",
+                "ko": "아니요, 표는 계속 유효합니다.",
+                "note": "gültig = 유효한"
+            }
+        ],
+        "keywords": [
+            {
+                "word": "die Verspätung",
+                "meaning": "지연"
+            },
+            {
+                "word": "den Anschluss verpassen",
+                "meaning": "환승편을 놓치다"
+            },
+            {
+                "word": "wahrscheinlich",
+                "meaning": "아마도"
+            },
+            {
+                "word": "gültig",
+                "meaning": "유효한"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_a2_shopping_return_01",
+        "topic": "shopping",
+        "title": "물건 교환하기",
+        "description": "가게에서 산 물건을 교환하거나 환불을 묻는 상황",
+        "level": "a2",
+        "order": 6,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Guten Tag, ich möchte diesen Pullover umtauschen.",
+                "ko": "안녕하세요, 이 스웨터를 교환하고 싶어요.",
+                "note": "umtauschen = 교환하다"
+            },
+            {
+                "speaker": "B",
+                "de": "Haben Sie den Kassenbon dabei?",
+                "ko": "영수증을 가지고 계신가요?",
+                "note": "Kassenbon = 영수증"
+            },
+            {
+                "speaker": "A",
+                "de": "Ja, hier ist er. Der Pullover ist leider zu groß.",
+                "ko": "네, 여기 있어요. 스웨터가 아쉽게도 너무 커요.",
+                "note": "zu groß = 너무 큰"
+            },
+            {
+                "speaker": "B",
+                "de": "Möchten Sie eine kleinere Größe oder Ihr Geld zurück?",
+                "ko": "더 작은 사이즈를 원하시나요, 아니면 환불을 원하시나요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Eine kleinere Größe, bitte.",
+                "ko": "더 작은 사이즈로 부탁드려요.",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "umtauschen",
+                "meaning": "교환하다"
+            },
+            {
+                "word": "der Kassenbon",
+                "meaning": "영수증"
+            },
+            {
+                "word": "die Größe",
+                "meaning": "사이즈, 크기"
+            },
+            {
+                "word": "Geld zurück",
+                "meaning": "환불"
+            }
+        ],
+        "quizId": null
+    },
+    {
+        "id": "dialog_a2_appointment_02",
+        "topic": "appointment",
+        "title": "관공서 예약 문의",
+        "description": "예약 시간이 맞지 않아 다른 날짜를 요청하는 상황",
+        "level": "a2",
+        "order": 7,
+        "lines": [
+            {
+                "speaker": "A",
+                "de": "Guten Tag, ich habe morgen einen Termin, aber ich kann leider nicht kommen.",
+                "ko": "안녕하세요, 내일 예약이 있는데 아쉽게도 갈 수 없어요.",
+                "note": "einen Termin haben = 예약이 있다"
+            },
+            {
+                "speaker": "B",
+                "de": "Wie ist Ihr Name, bitte?",
+                "ko": "성함이 어떻게 되시나요?",
+                "note": null
+            },
+            {
+                "speaker": "A",
+                "de": "Mein Name ist Kim. Könnte ich den Termin verschieben?",
+                "ko": "제 이름은 김입니다. 예약을 미룰 수 있을까요?",
+                "note": "verschieben = 미루다, 변경하다"
+            },
+            {
+                "speaker": "B",
+                "de": "Ja, der nächste freie Termin ist am Montag um zehn Uhr.",
+                "ko": "네, 다음 가능한 예약은 월요일 10시입니다.",
+                "note": "frei = 비어 있는, 가능한"
+            },
+            {
+                "speaker": "A",
+                "de": "Das passt gut. Vielen Dank für Ihre Hilfe.",
+                "ko": "그거 괜찮아요. 도와주셔서 감사합니다.",
+                "note": null
+            }
+        ],
+        "keywords": [
+            {
+                "word": "den Termin verschieben",
+                "meaning": "예약을 변경하다, 미루다"
+            },
+            {
+                "word": "leider",
+                "meaning": "아쉽게도"
+            },
+            {
+                "word": "frei",
+                "meaning": "비어 있는, 가능한"
+            },
+            {
+                "word": "Vielen Dank für Ihre Hilfe",
+                "meaning": "도와주셔서 감사합니다"
+            }
+        ],
+        "quizId": null
     }
 ]

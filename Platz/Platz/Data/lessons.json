@@ -946,5 +946,277 @@
             "공식 상황에서는 Kannst du...? 보다 Könnten Sie...? 가 안전합니다."
         ],
         "miniQuizId": "quiz_a2_conv_02"
+    },
+    {
+        "id": "lesson_a2_gram_05",
+        "track": "grammar",
+        "title": "장소와 방향 전치사",
+        "level": "a2",
+        "durationMin": 9,
+        "order": 5,
+        "contentMarkdown": "## 장소와 방향 전치사\n\nA2에서는 어디에 있는지와 어디로 가는지를 구분해야 합니다.\n\n- 장소: Wo? + Dativ\n- 방향: Wohin? + Akkusativ\n\n대표 전치사는 in, an, auf입니다.\n\n- Ich bin in der Schule. 나는 학교에 있어요.\n- Ich gehe in die Schule. 나는 학교로 가요.",
+        "examples": [
+            {
+                "de": "Das Buch liegt auf dem Tisch.",
+                "ko": "책이 책상 위에 놓여 있어요.",
+                "pronunciation": "다스 부흐 리크트 아우프 뎀 티쉬",
+                "note": "위치이므로 Dativ: dem Tisch"
+            },
+            {
+                "de": "Ich lege das Buch auf den Tisch.",
+                "ko": "나는 책을 책상 위로 놓아요.",
+                "pronunciation": "이히 레게 다스 부흐 아우프 덴 티쉬",
+                "note": "방향/이동이므로 Akkusativ: den Tisch"
+            },
+            {
+                "de": "Wir treffen uns an der Haltestelle.",
+                "ko": "우리는 정류장에서 만나요.",
+                "pronunciation": "비어 트레펜 운스 안 데어 할테슈텔레",
+                "note": "만나는 장소이므로 Dativ입니다."
+            }
+        ],
+        "tips": [
+            "Wo? 라고 물을 수 있으면 Dativ를 먼저 생각하세요.",
+            "Wohin? 라고 물을 수 있으면 Akkusativ를 먼저 생각하세요."
+        ],
+        "miniQuizId": "quiz_a2_gram_05"
+    },
+    {
+        "id": "lesson_a2_gram_06",
+        "track": "grammar",
+        "title": "비교급과 최상급",
+        "level": "a2",
+        "durationMin": 8,
+        "order": 6,
+        "contentMarkdown": "## 비교급과 최상급\n\n무언가를 비교하거나 가장 좋은 선택을 말할 때 비교급과 최상급을 씁니다.\n\n- schnell → schneller → am schnellsten\n- gut → besser → am besten\n- viel → mehr → am meisten\n\n비교 대상은 als로 연결합니다.",
+        "examples": [
+            {
+                "de": "Berlin ist größer als Bonn.",
+                "ko": "베를린은 본보다 커요.",
+                "pronunciation": "베어린 이스트 그뢰서 알스 본",
+                "note": "비교 대상 앞에는 als를 씁니다."
+            },
+            {
+                "de": "Dieser Zug ist schneller.",
+                "ko": "이 기차가 더 빨라요.",
+                "pronunciation": "디저 추크 이스트 슈넬러",
+                "note": "형용사에 -er를 붙이는 기본 형태입니다."
+            },
+            {
+                "de": "Das passt mir am besten.",
+                "ko": "그게 나에게 가장 잘 맞아요.",
+                "pronunciation": "다스 파스트 미어 암 베스텐",
+                "note": "gut의 최상급은 am besten입니다."
+            }
+        ],
+        "tips": [
+            "비교급은 보통 -er, 최상급은 am ...sten 구조입니다.",
+            "gut, viel처럼 자주 쓰는 불규칙형은 따로 외우세요."
+        ],
+        "miniQuizId": "quiz_a2_gram_06"
+    },
+    {
+        "id": "lesson_a2_gram_07",
+        "track": "grammar",
+        "title": "재귀동사",
+        "level": "a2",
+        "durationMin": 8,
+        "order": 7,
+        "contentMarkdown": "## 재귀동사\n\n재귀동사는 행동이 주어 자신에게 돌아오는 동사입니다. 독일어에서는 sich를 함께 외우는 것이 중요합니다.\n\n- sich freuen: 기뻐하다\n- sich treffen: 만나다\n- sich erinnern: 기억하다\n- sich fühlen: 느끼다\n\n주어에 따라 재귀대명사가 바뀝니다.",
+        "examples": [
+            {
+                "de": "Ich freue mich auf das Wochenende.",
+                "ko": "나는 주말을 기대하고 있어요.",
+                "pronunciation": "이히 프로이에 미히 아우프 다스 보헨엔데",
+                "note": "ich와 함께 mich를 씁니다."
+            },
+            {
+                "de": "Wir treffen uns vor dem Kino.",
+                "ko": "우리는 영화관 앞에서 만나요.",
+                "pronunciation": "비어 트레펜 운스 포어 뎀 키노",
+                "note": "wir와 함께 uns를 씁니다."
+            },
+            {
+                "de": "Wie fühlst du dich heute?",
+                "ko": "너 오늘 기분이 어때?",
+                "pronunciation": "비 퓔스트 두 디히 호이테",
+                "note": "du와 함께 dich를 씁니다."
+            }
+        ],
+        "tips": [
+            "동사를 외울 때 sich까지 붙여서 외우면 문장 만들기가 쉬워집니다.",
+            "sich treffen은 실제 약속 대화에서 매우 자주 나옵니다."
+        ],
+        "miniQuizId": "quiz_a2_gram_07"
+    },
+    {
+        "id": "lesson_a2_gram_08",
+        "track": "grammar",
+        "title": "형용사 어미 기초",
+        "level": "a2",
+        "durationMin": 10,
+        "order": 8,
+        "contentMarkdown": "## 형용사 어미 기초\n\n독일어에서는 명사 앞의 형용사도 성, 수, 격에 따라 어미가 바뀝니다. A2에서는 가장 자주 쓰는 형태부터 익히면 됩니다.\n\n- der gute Kaffee\n- ein guter Kaffee\n- die kleine Wohnung\n- ein kleines Zimmer\n\n관사가 정보를 얼마나 보여주는지에 따라 형용사 어미가 달라집니다.",
+        "examples": [
+            {
+                "de": "Ich suche eine kleine Wohnung.",
+                "ko": "나는 작은 집을 찾고 있어요.",
+                "pronunciation": "이히 주헤 아이네 클라이네 보눙",
+                "note": "Wohnung은 여성명사입니다."
+            },
+            {
+                "de": "Das ist ein gutes Angebot.",
+                "ko": "그건 좋은 제안이에요.",
+                "pronunciation": "다스 이스트 아인 구테스 안게보트",
+                "note": "Angebot은 중성명사입니다."
+            },
+            {
+                "de": "Ich nehme den roten Pullover.",
+                "ko": "나는 그 빨간 스웨터를 살게요.",
+                "pronunciation": "이히 네메 덴 로텐 풀오버",
+                "note": "Akkusativ 남성명사라 den roten이 됩니다."
+            }
+        ],
+        "tips": [
+            "처음에는 자주 쓰는 명사와 함께 통째로 외우세요.",
+            "집, 쇼핑, 음식 상황에서 형용사 어미가 자주 나옵니다."
+        ],
+        "miniQuizId": "quiz_a2_gram_08"
+    },
+    {
+        "id": "lesson_a2_gram_09",
+        "track": "grammar",
+        "title": "zu + Infinitiv",
+        "level": "a2",
+        "durationMin": 9,
+        "order": 9,
+        "contentMarkdown": "## zu + Infinitiv\n\n할 일, 계획, 목적을 더 길게 말할 때 zu + 동사원형을 씁니다.\n\n- Ich habe keine Zeit, zu kochen.\n- Es ist wichtig, pünktlich zu sein.\n- Ich versuche, jeden Tag Deutsch zu lernen.\n\n분리동사는 zu가 동사 사이에 들어갑니다.",
+        "examples": [
+            {
+                "de": "Ich versuche, früher aufzustehen.",
+                "ko": "나는 더 일찍 일어나려고 노력해요.",
+                "pronunciation": "이히 페어주헤 프뤼어 아우프추슈테엔",
+                "note": "aufstehen → aufzustehen"
+            },
+            {
+                "de": "Es ist schwer, eine Wohnung zu finden.",
+                "ko": "집을 찾는 것은 어려워요.",
+                "pronunciation": "에스 이스트 슈베어 아이네 보눙 추 핀덴",
+                "note": "평가 표현과 함께 자주 씁니다."
+            },
+            {
+                "de": "Ich habe Lust, heute Abend zu kochen.",
+                "ko": "나는 오늘 저녁에 요리하고 싶어요.",
+                "pronunciation": "이히 하베 루스트 호이테 아벤트 추 코헨",
+                "note": "Lust haben + zu + Infinitiv"
+            }
+        ],
+        "tips": [
+            "zu + Infinitiv는 문장을 자연스럽게 길게 만드는 핵심 구조입니다.",
+            "분리동사는 aufzustehen처럼 zu가 사이에 들어갑니다."
+        ],
+        "miniQuizId": "quiz_a2_gram_09"
+    },
+    {
+        "id": "lesson_a2_gram_10",
+        "track": "grammar",
+        "title": "wenn으로 조건 말하기",
+        "level": "a2",
+        "durationMin": 8,
+        "order": 10,
+        "contentMarkdown": "## wenn으로 조건 말하기\n\nA2에서는 조건이나 반복되는 상황을 말할 수 있어야 합니다.\n\n- Wenn ich Zeit habe, rufe ich dich an.\n- Ich bleibe zu Hause, wenn es regnet.\n\nwenn이 이끄는 부문장에서는 동사가 끝으로 갑니다. wenn 문장이 앞에 오면 다음 문장은 동사로 시작합니다.",
+        "examples": [
+            {
+                "de": "Wenn ich Zeit habe, komme ich mit.",
+                "ko": "시간이 있으면 나도 같이 갈게요.",
+                "pronunciation": "벤 이히 차이트 하베 콤메 이히 미트",
+                "note": "wenn 문장 끝에 habe가 옵니다."
+            },
+            {
+                "de": "Ich rufe dich an, wenn ich fertig bin.",
+                "ko": "내가 끝나면 너에게 전화할게.",
+                "pronunciation": "이히 루페 디히 안 벤 이히 페어티히 빈",
+                "note": "조건절이 뒤에 오면 기본 문장 어순은 그대로입니다."
+            },
+            {
+                "de": "Wenn der Zug später kommt, warten wir im Café.",
+                "ko": "기차가 늦게 오면 우리는 카페에서 기다려요.",
+                "pronunciation": "벤 데어 추크 슈페터 콤트 바르텐 비어 임 카페",
+                "note": "일정 변경 상황에 유용합니다."
+            }
+        ],
+        "tips": [
+            "wenn 뒤에서는 동사를 끝으로 보내세요.",
+            "wenn 문장이 앞에 오면 쉼표 뒤에 동사가 바로 옵니다."
+        ],
+        "miniQuizId": "quiz_a2_gram_10"
+    },
+    {
+        "id": "lesson_a2_conv_03",
+        "track": "conversation",
+        "title": "식당에서 문제 말하기",
+        "level": "a2",
+        "durationMin": 7,
+        "order": 3,
+        "contentMarkdown": "식당이나 카페에서 주문이 잘못 나왔을 때 정중하게 문제를 설명하는 표현을 배웁니다.\n\nA2에서는 불만을 강하게 말하기보다 상황을 설명하고 해결을 요청하는 방식이 중요합니다.",
+        "examples": [
+            {
+                "de": "Entschuldigung, ich habe etwas anderes bestellt.",
+                "ko": "실례합니다, 저는 다른 것을 주문했어요.",
+                "pronunciation": "엔트슐디궁 이히 하베 에트바스 안데레스 베슈텔트",
+                "note": "문제를 정중하게 시작하는 표현입니다."
+            },
+            {
+                "de": "Könnten Sie das bitte überprüfen?",
+                "ko": "그걸 확인해 주실 수 있을까요?",
+                "pronunciation": "쾬튼 지 다스 비테 위버프뤼펜",
+                "note": "공식 상황의 정중한 요청입니다."
+            },
+            {
+                "de": "Das Essen ist leider kalt.",
+                "ko": "음식이 아쉽게도 차가워요.",
+                "pronunciation": "다스 에센 이스트 라이더 칼트",
+                "note": "Leider를 넣으면 표현이 부드러워집니다."
+            }
+        ],
+        "tips": [
+            "문제 상황에서는 Entschuldigung으로 시작하면 안전합니다.",
+            "Könnten Sie...? 로 요청하면 정중하게 들립니다."
+        ],
+        "miniQuizId": "quiz_a2_conv_03"
+    },
+    {
+        "id": "lesson_a2_conv_04",
+        "track": "conversation",
+        "title": "교통 지연 설명하기",
+        "level": "a2",
+        "durationMin": 8,
+        "order": 4,
+        "contentMarkdown": "기차나 버스가 늦을 때 상황을 설명하고 대안을 묻는 표현을 배웁니다.\n\n독일 생활에서는 Verspätung, Anschluss, Gleis 같은 단어가 자주 나옵니다.",
+        "examples": [
+            {
+                "de": "Mein Zug hat zwanzig Minuten Verspätung.",
+                "ko": "제 기차가 20분 지연됐어요.",
+                "pronunciation": "마인 추크 핫 츠반치히 미누텐 페어슈페퉁",
+                "note": "Verspätung은 교통 지연을 뜻합니다."
+            },
+            {
+                "de": "Verpasse ich meinen Anschluss?",
+                "ko": "제가 환승편을 놓치나요?",
+                "pronunciation": "페어파세 이히 마이넨 안슐루스",
+                "note": "Anschluss는 연결편/환승을 뜻합니다."
+            },
+            {
+                "de": "Gibt es eine andere Verbindung?",
+                "ko": "다른 연결편이 있나요?",
+                "pronunciation": "깁트 에스 아이네 안데레 페어빈둥",
+                "note": "대안을 물을 때 유용합니다."
+            }
+        ],
+        "tips": [
+            "교통 상황에서는 haben + Verspätung 구조가 매우 자주 쓰입니다.",
+            "Anschluss와 Verbindung은 기차역에서 꼭 알아두면 좋습니다."
+        ],
+        "miniQuizId": "quiz_a2_conv_04"
     }
 ]
